@@ -1,0 +1,111 @@
+# 真正的 workflow 資產，不在 chatbot UI
+
+做一個好看的 chatbot、dashboard 或 Agent 介面，確實能讓人很快看見成果。但如果背後沒有可信資料、清楚路由、交付標準和 review 記錄，換一個工具、換一個人，整件事便回到原點。
+
+UI 很容易被展示，也很容易被模仿。真正令一段 AI 工作可以持續的，通常是看不見的部分：哪些資料可用、如何把材料交到正確工作、甚麼叫合格 output、錯了回到哪一格、誰有權更新規則。這些沒有被留下，介面只是一個好看的入口。
+
+Jimmy 的判斷是：難被複製的不是你畫了哪個 UI；是你把工作判斷變成可追、可交接、可改善的資產。UI 可以讓人使用流程，但不能代替 source、route、artifact、review、feedback 和 owner 組成的工作系統。
+
+| Workflow 資產 | 解甚麼問題 | 留下甚麼 |
+|---|---|---|
+| 可信 context | AI 憑甚麼工作 | approved material／unknown |
+| 路由與規則 | 哪件事走哪條路 | work contract／boundary |
+| Artifact 與 check | 怎樣算完成 | 可 review output／receipt |
+| Feedback 與 owner | 如何改善、誰決定 | reference rule／decision |
+
+## Chatbot UI 為甚麼不能證明你已有一套 AI workflow？
+
+一個 chat window 只顯示人如何輸入和 AI 如何回答；它通常不顯示 AI 讀過哪個版本、是否只用批准材料、哪個 output 能進下一步、誰看過、錯了怎樣回退。若這些問題沒有答案，介面再流暢也不能證明流程能在另一個時間、另一個人或另一個工具下重跑。
+
+這不是否定 UI 的價值。好的 UI 可減少使用摩擦、令狀態更可見；但它應建立在已清楚的 workflow 上。先做 UI，容易把未定義的 context、責任與 exception 藏在畫面後，令每次出問題都只能說「個 chatbot 唔得」。
+
+**Jimmy 的結論：** UI 是 workflow 的入口，不是 workflow 的證明；真正要驗收的是它背後的 context、artifact、review 和 owner 是否存在。
+
+| 只看 UI | 要追問的 workflow 問題 |
+|---|---|
+| 有一個聊天框 | 它只讀甚麼、何時不讀？ |
+| 有一個 dashboard | 哪些狀態來自哪個 artifact？ |
+| AI 顯示「完成」 | 哪個 check 和 owner 證明可採用？ |
+
+當你能回答右欄，UI 才變成一個能幫人使用工作系統的介面，而不是一張 demo 畫面。
+
+## AI workflow 最值得留下的四種資產是甚麼？
+
+Workflow 資產不一定是大型平台。它可以是一張 task pack、已批准材料清單、一份固定 artifact、review receipt，或一條有 scope 的 feedback rule。這些東西讓下一位人或 AI 不必從聊天歷史猜回來，也讓你知道修改哪一格才可以改善下一輪。
+
+最重要的是把 source、判斷和決定分開。原始材料可變、規則會更新、一次 output 可能失敗；但只要它們彼此可追，你便能回看某個結果憑甚麼出現，而不用把所有知識藏在某個人的記憶或某個工具帳號裡。
+
+**Jimmy 的結論：** 可累積資產不是 AI 產出得多，而是每次工作留下的 context、route、artifact 和 feedback 可被下一次安全找到與更新。
+
+| 資產 | 最小形態 | 下一次怎樣用 |
+|---|---|---|
+| Context | approved／unknown 材料表 | 不再把過期資料當現在事實 |
+| Route | work card／Skill scope | 知道哪件工作走哪條流程 |
+| Artifact | 固定欄位 draft／brief | reviewer 可快速核對 |
+| Feedback | receipt／reference rule | 同類錯不必重新學 |
+
+先保存這些小而可驗收的東西，比先做一個「萬能 AI dashboard」更能累積真正可用能力。
+
+## AI context 和 routing 為甚麼比 UI 更難複製？
+
+任何人都可以換一個模型或複製一個聊天介面，但不能立即複製你對工作材料的判斷：哪些來源仍有效、哪些版本已過期、資料不足時該問誰、同一份材料要進哪個 task、哪些不能離開受控位置。這些取捨來自反覆跑工作和人手 review，不是從 UI 截圖直接得到。
+
+Routing 將這些判斷放進正確位置。例如公開資料可進 research brief，未確認數字要留 unknown，私有資料不可為了方便被塞進一般 AI context；內容 draft、work plan、owner approval 也應走不同出口。沒有 routing，所有資料和工作混在一起，AI 只會更容易用錯。
+
+**Jimmy 的結論：** Workflow 的護城河不是藏資料，而是把資料、判斷與工作出口路由得清楚，令每次使用都有邊界和可追性。
+
+```text
+source → allowed context → bounded work → artifact → review
+private／unknown／high-risk ─────────────────────→ stop / owner
+```
+
+這也保護你不會把「AI-readable」誤解成「所有資料都應讓 AI 讀」。
+
+## AI output 怎樣變成可交接 workflow artifact，而不是一段會消失的 chat？
+
+一段對話很難交接：下一位不知道材料在哪裡、哪句已被人確認、哪些內容只是探索。把 output 變成 artifact，不代表要存所有聊天記錄；它只要有清楚名稱、指定欄位、來源／unknown、review 結果和下一步，便能讓人看出本輪做到哪裡。
+
+Artifact 也令 UI 不再是唯一入口。你可以換工具、換人、甚至暫時不用 AI，仍能打開同一份 brief、work card 或 receipt 繼續工作。這種可搬走性比鎖在一個漂亮 chat 裡的「記憶」更接近可靠工作系統。
+
+**Jimmy 的結論：** AI output 只有變成可核對 artifact，才能真正被交接、比較和改善；留在 chat 裡的答案只是一段暫時畫面。
+
+| Output 狀態 | 應留下甚麼 |
+|---|---|
+| Internal brief | sources、重點、unknown、owner question |
+| Workspace change | scope、changed files、check、rollback |
+| Review 後 draft | rubric、revision memo、採用／停止決定 |
+
+當 artifact 有固定形態，reviewer 不必再從 UI 追問「它做過甚麼」，工作才可真正交給下一位。
+
+## AI workflow 做完後，feedback 和 owner 怎樣令資產愈來愈好？
+
+沒有 feedback 的流程只會重複；沒有 owner 的流程則無人有權決定何時修改、何時停止。每次 run 後，人應留下最小 receipt：artifact 是否過關、哪個 check 未過、哪一條修改值得下次使用、哪些問題仍要 owner 決定。這些不是行政負擔，而是讓 workflow 不會只依賴某次模型表現的更新機制。
+
+不是每條 feedback 都要升成永久規則。一次性情境留在本輪；相近工作反覆發生、原因與 scope 清楚的才變成 reference rule；工作已穩定重複才升成 Skill 或 automation。這樣資產會隨 evidence 變好，而不是愈收愈多過期指示。
+
+**Jimmy 的結論：** Workflow 資產的價值來自可更新的 feedback 和清楚 owner；不是一次設計好後永遠不變。
+
+| 看到的結果 | 應放在哪裡 |
+|---|---|
+| 今次才有的選擇 | 本輪 task／artifact |
+| 反覆出現的修改原因 | reference rule，附 scope／expiry |
+| 穩定的 input、output、exception | Skill／pipeline 候選 |
+| 權限、對外、不可逆決定 | owner approval，不交 AI |
+
+每次留下這種可追 receipt，介面才會愈用愈有價值，因為它連接了一套真的在學習的工作方法。
+
+## 想做 AI dashboard 或 chatbot 前，第一個安全動作是甚麼？
+
+第一步不是畫 UI，而是挑一件真工作，寫出 source、artifact、review 和 owner。用公開／synthetic 材料跑一次 internal work card，讓人看見結果在哪裡、unknown 怎樣處理、誰能判 pass／revise／stop。若這條工作仍講不清，dashboard 只會把混亂放大成更多按鈕。
+
+當同類工作已經有固定 artifact、review 和 receipt，UI 才有值得承載的東西：它可令人更快找到狀態、選擇正確入口、提出 owner 問題，但仍不應繞過 boundary 或自動執行高風險 action。
+
+**Jimmy 的結論：** 先建立可追的 workflow 資產，再做 UI；第一個安全成果是一份可 review work card／receipt，不是一張 chatbot 截圖。
+
+| 你下一個卡位 | 接著讀甚麼 |
+|---|---|
+| 想把工作做成可展示單位 | [AI work card](4-20-ai-work-card.md) |
+| 想讓 state 可以被核對 | [evidence loop](4-9-evidence-loop.md) |
+| 想管理仍可信的工作記憶 | [work memory lifecycle](4-14-work-memory-lifecycle.md) |
+
+可返回 [AI Builder stage](../04-ai-builder.md)。本文只用公開／synthetic 情境，不構成資料存取、系統寫入、外發或 production action 的批准。

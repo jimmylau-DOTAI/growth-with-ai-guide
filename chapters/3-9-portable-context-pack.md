@@ -1,0 +1,143 @@
+# 換 AI 工具就要由零開始？你需要帶得走的不是所有資料，是可信 context
+
+你已經有一套做法，但只要換 chat、換工具或換人，每次又要重新說明工作規則、語氣和背景。最直覺的方法是把整個資料夾、所有舊 chat 和每份筆記一併 attach；看似最完整，實際上最容易讓下一個 AI 選錯規則、讀到過期內容，或碰到本來不應帶走的資料。
+
+真正可攜的不是搬走多少檔案，而是帶走多少可信判斷，同時保留它的邊界。沒有 source of truth、未知標示、authority 和 refresh owner，再多 context 只會變成難以驗收的背景噪音；AI 看似知道很多，卻不知該相信哪一份。
+
+Jimmy 的判斷是：portable context pack 要最少、可攜、可更新。第一輪先為一條低風險 routine 寫一頁 pack，只放這次真的需要的身份、任務、可信資料、停線與更新責任；不要把「所有歷史」誤當成 context。
+
+| Portable context 六格 | 要避免甚麼 | 留下甚麼 |
+|---|---|---|
+| Identity／voice | 每次重新解釋角色和語氣 | 必要的工作定位 |
+| Task／output | 只說「幫我做好」 | 可 review 成果 |
+| Source of truth | 把舊 chat 當現行規則 | 可信資料入口 |
+| Evidence／unknown | 讓 AI 自己填空白 | 已知與待確認標示 |
+| Authority／stop | 不知道誰能批准或停止 | 權限與停線 |
+| Refresh owner／date | 把過期 context 當今天指令 | 更新責任 |
+
+## 把整個資料夾帶去新工具，點解反而更容易做錯？因為完整不等於可信
+
+資料多會帶來一種安全感：好像只要 AI 看過所有舊內容，就能理解你怎樣做事。可是資料夾裡通常同時有現行規則、舊版本、腦暴、私人筆記和未完成草稿。對不熟悉背景的人來說，它們外表一樣像「context」；對 AI 來說，也沒有自然能力知道哪一句才有最終 authority。
+
+所以新工具輸出不穩時，問題未必是它沒有記憶，而是你沒有告訴它哪一份記憶應該主導眼前工作。context 的第一個責任不是增加資訊量，而是減少錯誤選擇的空間。
+
+Jimmy 的結論是：可攜 context 不是最大檔案包，而是讓下一位能分清「現在可信甚麼、不可相信甚麼、缺甚麼就要停」的小包。
+
+將準備帶走的材料先分三類：
+
+| 類別 | 是否放進 pack | 處理方法 |
+|---|---|---|
+| 現行、已批准、會影響 output | 是 | 標明用途與更新者 |
+| 歷史、靈感、舊例子 | 通常否 | 必要時只作 reference，不能當規則 |
+| 私人、敏感、未確認或無 owner | 否 | 留在原系統，或先去確認／脫敏 |
+
+這一步看似少放資料，實際上令換工具時更不容易把舊背景意外變成新指令。
+
+## Identity 同 task 點樣寫先唔會變成整份個人資料？只帶今次工作需要的定位
+
+很多人想讓 AI「像自己」，於是把個人經歷、所有偏好、所有 project 背景都塞進一份 system prompt。這會令 context 很難更新，也會把與今次任務無關的資料帶到不同工具。更重要的是，AI 仍然未必知道這次應交甚麼，只知道一大串你是誰。
+
+較好的做法是分開 identity 和 task。identity 只說這條 routine 需要的語氣、受眾與工作原則；task 則說今次要交哪個 artifact、給誰 review、甚麼不能做。兩者都應隨工作而變，而不是被當成一次寫完的永久自我介紹。
+
+Jimmy 的結論是：要令 AI 做得像你，不是把所有關於你的資料搬過去，而是把今次會改變判斷的工作定位說清。
+
+| 欄位 | 最小寫法 |
+|---|---|
+| Identity／voice | 「用香港廣東話，先講工作摩擦，再講安全第一步；避免未驗證承諾。」 |
+| Task／output | 「把指定公開文章整理成一份 internal teaching outline，交 owner review。」 |
+| Audience | 「已識基本 AI 工具、想把一件真工作交出去的人。」 |
+| Boundary | 「未知要標示；不可使用私人資料；不可直接對外發布。」 |
+
+這種寫法不會讓你失去個人風格，反而讓風格變成可在不同工具裡一致執行、又不會過度攜帶資料的工作規則。
+
+## Source of truth 同 evidence／unknown 點樣防止 AI 將舊資料寫成今日事實？
+
+context pack 最重要的不是「資料連結很多」，而是每條資訊有沒有狀態。舊文章、舊格式和曾經有效的說法都可能仍然有參考價值，但它們不應自動升格成現行事實。沒有狀態標示，AI 常會把最流暢、最完整的那份內容當成答案。
+
+source of truth 是指今輪可以根據的資料入口；evidence／unknown 則說清楚哪些說法已確認、哪些只是參考、哪些需要人處理。這樣，即使換到不同模型或由另一位同事接手，大家都能在同一個判斷邊界內工作。
+
+Jimmy 的結論是：資料可帶走，authority 不能丟掉；任何會影響公開 output 的說法，都要看得出它可否被相信。
+
+一個最小 evidence block 可以是：
+
+```text
+Source of truth: 指定公開 URL + 本輪已批准的 outline format
+Confirmed: 活動日期與已公開功能說明
+Reference only: 去年的語氣範例
+Unknown / ask owner: 未確認的成效、定價、合作安排
+```
+
+這四行讓 AI 知道它可以怎樣寫，也讓 reviewer 一眼看得出哪一段不應被當成事實。沒有這個 block 時，寧願縮小任務，不要靠「AI 應該會明」來賭。
+
+## Authority 同 stop line 點樣避免 AI 做得愈多、責任愈模糊？先寫誰能決定
+
+context 很多時只講「怎樣做」，很少講「誰可以決定」。結果是 AI 起了一份 draft，沒有人知道誰應批准；材料矛盾時，它繼續補寫；範圍改變時，大家還以為只要再改 prompt 就能解決。這讓自動化看似很順，實際上把本來應由人承擔的判斷藏掉。
+
+authority 與 stop line 的作用，是讓任何 worker 在不確定時有一條安全路可以走。它們不是阻礙效率，而是避免你為了不想打斷流程，最後收到一份不能採用的 output。
+
+Jimmy 的結論是：AI 可以被交代工作，但不能被默認賦予未寫出來的權限。
+
+pack 裡至少寫清四句：
+
+1. 誰可以確認 input 已足夠？
+2. 誰 review output，按甚麼標準收貨？
+3. 哪些情況要標 `blocked`，不可自行繼續？
+4. 哪些對外行動、承諾或資料處理一定要人手批准？
+
+這些句子令另一個 AI 或同事不會因為「想幫手」而越過你的工作邊界。當問題真的發生時，它也知道應把問題交回哪裡。
+
+## Context 會過期，點樣先不會愈用愈錯？Refresh owner 和日期不是裝飾
+
+一份 context pack 在第一天可能非常準確，數星期後卻可能仍然寫著舊目標、舊格式、已變更的產品說法。AI 不會主動提醒你「這條規則可能過期」；它只會照它眼前被授權的文字執行。這就是為何同一個 prompt 用久了，輸出會突然開始不像你現在的工作。
+
+可更新並不等於每次都重寫。你只需要知道哪一類改變會令 pack 失效、誰負責更新、何時應提醒 owner review。把這些事情寫入 context，本身就是讓判斷可以安全跨工具移動的條件。
+
+Jimmy 的結論是：context 是工作中的現行狀態，不是一次製作後永遠正確的檔案。
+
+| 變動 | 要做甚麼 | 誰處理 |
+|---|---|---|
+| 目標／受眾改變 | 重寫 task 與 output 完成線 | task owner |
+| 事實／材料更新 | 換 source of truth、標出舊資料 | content／data owner |
+| Review 規則改變 | 更新 authority 與 stop line | approval owner |
+| 定期檢查 | 確認 pack 仍對應目前 routine | named refresh owner |
+
+這些更新不需要即時自動化。先令一個人有責任把舊 context 退休，已經能大幅減少「AI 明明以前做得對，現在點解做錯」的情況。
+
+## 用公開文章變 teaching outline 跑一次：portable pack 怎樣跨工具仍然可信
+
+以下是 synthetic 例子。假設你要在不同 AI 工具之間，把一篇公開文章整理成 internal teaching outline。你不需要把所有個人筆記、客戶背景或完整聊天紀錄帶走；這次工作只需要文章 URL、課堂目標、格式、語氣與停線。
+
+把 pack 給一位未讀過歷史的 worker 或另一個 AI，讓他只按這頁起 outline。若他能說出下一步、未知和誰要 review，pack 就已經比「附上全部資料」更可攜。
+
+| 六格 | 本輪 pack 寫法 |
+|---|---|
+| Identity／voice | 香港廣東話；先講工作摩擦，再講可試小步 |
+| Task／output | 起一份 internal teaching outline，不對外發送 |
+| Source of truth | 指定公開文章與已批准 outline format |
+| Evidence／unknown | 原文事實可引述；未驗證成效一律標待確認 |
+| Authority／stop | teaching owner review；來源不清即 `blocked` |
+| Refresh | 每次換文章或課堂目標，由 owner 重看 pack |
+
+Jimmy 的結論是：跨工具的一致性，不是所有 AI 都「記住你」，而是每次重要工作都有一個可被人讀懂、可被更新、可被收貨的可信 context。
+
+這種示例只證明低風險 routine 可以被清楚交接；它不代表你應把包含敏感資料的整個工作環境搬到任何新工具。
+
+## 第一份 portable context pack 應怎樣開始？先驗證另一位人能否只靠它接手
+
+不要由「我要把自己所有知識搬進 AI」開始。先揀一件你會在另一個工具重做、資料可以公開或 synthetic、而且就算出錯仍可人手收回的小工作。寫一頁 pack，然後刻意不要附上完整歷史，看看下一位能否正確說出任務、input、output、owner 和停線。
+
+若他答不到，優先補一條不清楚的規則，而不是再丟更多檔案。這個測試能直接告訴你 context 缺的是 source of truth、完成線、authority 還是 refresh，而不是讓你無止境加長 prompt。
+
+第一次交給另一個工具前，逐項自查：
+
+1. 它是否只拿到本輪必需、可安全使用的材料？
+2. 它能否指出哪一份是 source of truth、哪一份只是參考？
+3. 它能否說出誰 review、甚麼情況要 `blocked`、何時應 refresh？
+
+Jimmy 的結論是：可攜不在搬走多少資料，而在帶走多少可信判斷，並且知道何時應停下來問人。
+
+完成這張 pack 後，可讀 [新同事或新 AI 一入 project 就迷路？](3-8-project-onboarding-pack.md)，了解如何把一個工作 pack 放進整個 project 的可信入口；也可回看 [明明每星期都做，點解仍然交唔到畀人或 AI？](3-6-work-map-before-workflow.md)，先畫清你真正要帶走的是哪一段工作。
+
+---
+
+← [返回 AI Operator](../03-ai-operator.md) · [按問題瀏覽](../BROWSE.md)

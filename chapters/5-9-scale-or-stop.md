@@ -1,0 +1,149 @@
+# Pilot 跑得不錯，是否應立即擴大？每加一層，都要重新問治理跟不跟得上
+
+一條 AI workflow 在小範圍跑得不錯，值得慶祝；但它只表示「在這一個範圍、這一組 input、這些 owner 和這些 controls 下，值得再問下一步」。它不代表加更多人、更多資料、更多系統或更大權限後，結果仍會一樣。
+
+擴大最容易被忽略的不是模型能力，而是例外與責任。每多一種資料格式、每多一位使用者、每多一個外部 action，都會令 input 更不一致、review 更難、風險更高，並對 owner 的時間提出新要求。第一輪的好結果不能自動搬到新情境。
+
+Jimmy 的看法是：scale 不是預設答案，stop 也不是失敗。每一次擴大都應是一個新的、有界限的 experiment：看 evidence trend、例外 pattern、owner capacity、新增 risk delta 和 rollback；一次只改一層，再重新收 evidence，才決定是否再走下一步。
+
+AI 實戰 · AI Value Creator · scale · stop · governance · rollback · owner capacity · risk delta
+
+| 擴大前要看的格 | 要回答甚麼 | 留下甚麼 |
+|---|---|---|
+| Evidence trend | 多輪是否都有改善？ | 同一範圍的 outcome 記錄 |
+| Exception pattern | 錯誤來自哪一層？ | input、rule、AI、handoff 分類 |
+| Owner capacity | 有沒有人真的可 review？ | owner 時間與責任確認 |
+| Risk delta | 今次多了甚麼資料、權限或影響？ | 新舊範圍差異 |
+| Rollback | 若出事怎樣回到原流程？ | 可執行關閉／回退步驟 |
+| Scoped change | 這輪只增加甚麼？ | 下一輪 control card |
+
+## Pilot 跑得好點解仍不能即刻 scale：小範圍成功不等於新情境已被證明
+
+小 pilot 的價值在於它把變數壓到很少：可能只讀一類已批准資料、只交一種 internal draft、只由一位 owner review。當你加人、加資料、加系統或加 action，這些條件都在改變。就算模型沒變，workflow 已經是一個不同的工作。
+
+例如一條 internal FAQ draft workflow 原本只讀公開資料，下一步想加入更多資料格式。這不只是「多一個欄位」：它可能令 source 品質不同、格式不一致、reviewer 需要新規則，或讓 unknown 的比例增加。若直接把首輪成功稱作擴大依據，團隊會錯過重新設計 controls 的機會。
+
+**Jimmy 的結論：** 小 pilot 成功是下一個問題的入場券，不是自動擴大的許可。每加一層，都要重新問：新增了甚麼例外、誰承擔、怎樣驗收、出事怎樣回退？
+
+| 想擴大的東西 | 實際改變了甚麼 | 為何要重新驗證 |
+|---|---|---|
+| 多一位使用者 | 操作習慣與理解不同 | review／training 是否足夠 |
+| 多一種資料格式 | input 品質與缺口不同 | schema／source rule 是否仍有效 |
+| 接多一個系統 | action 與錯誤影響更大 | permission／rollback 是否可行 |
+| 由 draft 走向 send | 對外後果與承諾增加 | human approval 是否足夠 |
+| 加入敏感資料 | 私隱、權限與風險不同 | 首輪不應直接做 |
+
+擴大不是把同一件事做大，而是開始做一件邊界更廣的新工作。因此它應有新的 control card 和新的 decision date。
+
+## Evidence trend 怎樣睇：不要用一次亮點換取更大權限
+
+一次很好的 output 可以來自剛好乾淨的 input、最熟悉的使用者或特別投入的 reviewer。要判斷一條 workflow 是否真的值得多走一步，至少要在同一清楚範圍跑幾次，看看 quality、時間、rework 或 stop 訊號是否有一致趨勢。
+
+這不需要做大型統計研究。它只要求團隊不把單次成功當成普遍成功：例如三次 run 裡，第一版可 review 的時間是否相近改善？退回補資料的原因是否可理解？owner 是否仍覺得 review 成本合理？如果答案很不一致，先修工作本身，不要用最亮眼的一次作宣傳。
+
+**Jimmy 的結論：** Evidence trend 不追求完美數字，而是避免被一次好結果帶著走。範圍清楚、可比較的多輪觀察，才足以支持下一個小變化。
+
+| 只看一次時容易說 | 多輪才可看見甚麼 | 較好的決定 |
+|---|---|---|
+| 「AI 快很多」 | 不同 input 下是否仍快 | retain 或先修 input |
+| 「review 很順」 | reviewer 是否每輪都可負擔 | 看 owner capacity |
+| 「沒有錯」 | 是否只是未遇到例外 | 補 exception test |
+| 「大家喜歡用」 | 有沒有真 artifact 被採納 | 看 workflow outcome |
+| 「可以全面推」 | 新風險是否還未出現 | 一次只加一層 |
+
+若 evidence 尚未穩定，最好的下一步可以是多跑幾次原範圍，或縮小到更容易比較的工作格。這不是停滯，而是在建立可信基礎。
+
+## Exception pattern 怎樣決定先修還是先擴：要分 input、rule、AI 與 handoff 問題
+
+當 exception 出現，最危險的做法是把它們全部叫作「AI 不準」。有些是 input 缺欄，有些是規則未寫清，有些是 worker 在 unknown 時沒有停，有些是 handoff 沒有讓 reviewer 看見必要資料。不同原因需要完全不同修法；若不分清，擴大只會放大混亂。
+
+每次 run 可以簡單標籤例外：input、source、rule、AI output、handoff、owner 或技術可行性。當同一類例外重複出現，先修該層。例如格式不一致先補 schema；source 缺失先修 reference bundle；reviewer 意見不同先對齊 rubric。直到 pattern 變得可控，才考慮加新變化。
+
+**Jimmy 的結論：** scale 的前提不是「例外為零」，而是團隊能分辨例外從哪裏來、知道誰修、也知道甚麼時候應停止。不能分類的例外，比少量可處理例外更危險。
+
+| 例外 pattern | 最可能的問題層 | 擴前先做甚麼 |
+|---|---|---|
+| 經常缺資料 | input／source | 補欄位或縮小資料範圍 |
+| 同一格式每次不同 | rule／template | 寫 schema 與 quality bar |
+| AI 把未知寫成事實 | stop line／prompt | 強化 unknown receipt |
+| reviewer 每人講法不同 | rubric／owner | 對齊驗收條件 |
+| 工具處理不了必要格式 | 技術可行性 | stop、換方案或保持人手 |
+
+正確的修正通常比擴大更有價值。它會令下一輪真正更穩，而不是只把第一輪的好故事擴散出去。
+
+## Owner capacity 與 risk delta 點樣決定能否加一層：權限大咗，責任亦要跟上
+
+許多 pilot 在小範圍成功，是因為一位很熟悉的 owner 願意花時間 review。當擴大到更多人或更多 input，review 量、例外量和需要作決定的次數都會增加。如果 owner 沒有時間、權限或清楚替補，workflow 即使技術上能跑，也未必是可持續的。
+
+risk delta 是把「今次究竟多了甚麼」寫清楚：多了一類資料？多了一個可寫入系統？多了一個外部收件人？還是多了一種可能影響客戶的 action？每一種 delta 都要重新問誰能批准、哪些 rule 變了、需要哪些 review，以及出事的後果是否仍可接受。
+
+**Jimmy 的結論：** 擴大不是只加能力，也是在加責任。若 owner capacity 或風險控制跟不上，先停下修好，比讓 workflow 快過治理更有價值。
+
+| 新增變化 | Owner 要新增承擔甚麼 | 可能需要的 control |
+|---|---|---|
+| 更多使用者 | support、培訓與一致 review | shared work card |
+| 更多資料類型 | data boundary 與資料品質決定 | source／schema gate |
+| 可寫指定文件 | version、diff 與 rollback | limited write scope |
+| 可外發 draft | 收件人與承諾審批 | human approval gate |
+| 可進 production | incident、rollback 與監控 | formal release control |
+
+如果沒有人能清楚說「新增這一層後由誰 review」，那不是要招更多 Agent，而是該暫時不擴大。
+
+## Rollback 點樣令擴大可逆：在加新權限前先知道怎樣關掉它
+
+rollback 不是發生事故後才想的備案。當你要加資料、加寫入或加外部 action 前，先寫清若結果不如預期，要怎樣停止新變化、回到上一個已驗證範圍、保留哪些 evidence、通知哪位 owner。可逆性讓團隊敢於有紀律地試，而不是因害怕出事完全不前進。
+
+一個好 rollback 可以很小：不啟用新資料格式、把 write 改回 draft、關閉一條自動化、用前一版 template、或暫時把 workflow 交回人手。重要的是它真的可做，不是一句「有問題就 revert」。若回退要依賴一個不在場的人、沒有版本或沒有原流程，代表擴前仍未準備好。
+
+**Jimmy 的結論：** 寫不出 rollback，就先不要加新權限或新風險。可逆的擴大能讓你收 evidence；不可逆的擴大只會迫團隊在不確定中硬撐。
+
+| 想加的東西 | 最小 rollback | 要先確認甚麼 |
+|---|---|---|
+| 新資料格式 | 從 reference bundle 移除 | 原範圍仍可完整跑 |
+| 可修改 draft | 改回只產生建議 | 有版本與 diff |
+| 外部發送 | 改回 human copy-paste approval | 收件人未被自動通知 |
+| 新系統連接 | 關閉 connector、回到原工具 | 不影響既有資料 |
+| 新 template | 指回上一個 approved 版本 | owner 知道切換位置 |
+
+rollback 也要被記錄在新的 control card。它不是技術細節，而是 owner 對新風險負責的一部分。
+
+## 一個公開安全例子：internal draft workflow 每次只多一種變化
+
+假設一條 internal draft workflow 已經在指定公開資料下穩定跑了幾次：AI 起一份有 source 和 unknown 的 draft，owner review 後才進下一步。團隊想擴大，但不會同時接新系統、讓 AI 外發或加入敏感資料；下一輪只加一種已批准資料格式。
+
+新的 control card 寫明資料格式差異、額外 schema rule、誰會 review 新格式，以及 rollback 是把新格式移出 bundle、回到原來三種資料。團隊重新跑 control、review 和兩個 outcome observation；若例外突然增加，回到原範圍修規則，而不是把第一次好結果搬到新情境。
+
+**Jimmy 的結論：** 這個例子示範真正的 scale 是「一次只加一層，重新驗證」，不是把成功複製貼上。能回到上一個安全範圍，團隊才可以有紀律地成長。
+
+| 擴大前 | 今輪只改甚麼 | 若出問題怎樣做 |
+|---|---|---|
+| 指定公開資料格式 | 加一種已批准格式 | 移出新格式、回舊 bundle |
+| 只起 internal draft | 仍不加外部 action | 維持 human review |
+| 原 owner review | 加一位新格式 reviewer | 回原 owner 流程 |
+| 原 quality bar | 加新 schema check | 修 rule 後再跑 |
+| 三次 baseline | 收新格式 observation | retain／revise／stop |
+
+這個例子只在公開、內部 draft 層處理，不讓 AI 讀取客戶／私人資料、對外發送、公開內容、改 visibility 或進 production。
+
+## 今日怎樣作 scale、revise 或 stop 決定：寫一句變化，加一條 rollback
+
+把你想擴大的改動寫成一句：「這次只多一種人、資料、系統或 action。」再寫一條可操作 rollback：若發現問題，怎樣回到哪個已驗證範圍。若這兩句寫不出來，先不要擴；代表 scope 或責任仍未清楚。
+
+然後對照五格：多輪 evidence 趨勢是否足夠？例外能否分類？owner 有沒有 capacity？新增 risk delta 是否可接受？rollback 是否真的可做？答案不必全是完美才可以走，但每一個欠缺都要有 owner 與修正計劃；否則最安全決定就是 retain 原範圍或 stop。
+
+**Jimmy 的結論：** 當治理跟不上擴張，停一停比跑快更有價值。scale 是一個新的 pilot，不是上一輪成功的獎賞。
+
+| Scale decision card | 要回答甚麼 | 安全起點 |
+|---|---|---|
+| Scoped change | 今輪只加甚麼 | 一種已批准資料格式 |
+| Evidence | 哪些多輪結果支持它 | quality、time、rework trend |
+| Exceptions | 哪類問題已可處理 | input／rule／handoff tags |
+| Owner capacity | 誰 review 新變化 | 指定 owner 與時間 |
+| Risk／rollback | 多了甚麼，怎樣回退 | 關閉新 bundle、回原 workflow |
+| Decision date | 何時再看 evidence | 三次新範圍 run 後 |
+
+未有這張 decision card 前，不要因為已投入時間、買了工具或有一個漂亮 demo 就自動擴大。更不要把首輪成功直接推到外部發送、私人／客戶資料、公開設定或 production。下一步可看 [如何為團隊帶來第一個安全成果](5-10-first-safe-outcome.md)。
+
+> 當治理跟不上擴張，停一停比跑快更有價值。
+
+← [AI Value Creator 入口](../05-ai-value-creator.md) · [按問題瀏覽](../BROWSE.md)
