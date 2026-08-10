@@ -90,6 +90,6 @@ H2 標題本身要帶搜尋字與工作痛點，例如「AI 交了 output，點�
 
 舊有的 `AI Curious`、`AI Leader`、7／10 級工具階梯、舊 stage draft、sample 和 audit，只是歷史工作材料；不可以重新連入 README、BROWSE、Stage shelf 或新公開攻略。若要引用外部 ladder，只可作「能力路徑可以被看見」的 evidence，並必須回到現行五段地圖和一件真工作。
 
-完整來源政策見 [SOURCES.md](SOURCES.md)，本機發佈狀態見 [PUBLIC-RELEASE-STATUS.md](PUBLIC-RELEASE-STATUS.md)。
+完整來源政策見 [SOURCES.md](SOURCES.md)；本機發佈狀態與審核記錄不屬公開讀者版本。
 
 逐篇公開長文與學生閱讀審核，均按本地 GitHub 出街版攻略 QA 執行；公開讀者只會看到已通過結構、安全與連結檢查的版本。

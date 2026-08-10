@@ -10,7 +10,7 @@
 | 專題／問題型攻略 | 99 | 每篇處理一個可搜尋、可理解、可帶回工作的問題。 |
 | 跟住做 walkthrough | 16 | 讓人跟著完成一張卡、一個 task pack 或一輪 review。 |
 | **有效公開候選合計** | **120** | 104 篇 chapters + 16 篇 walkthroughs。 |
-| 本機歷史重複草稿 | 2 | `1-6-start-here-first-ai-work 2.md`、`4-33-content-direction-is-problem-memory 2.md`；保留本機但不列入公開地圖，詳見 [release boundary](PUBLIC-RELEASE-STATUS.md)。 |
+| 本機歷史重複草稿 | 2 | `1-6-start-here-first-ai-work 2.md`、`4-33-content-direction-is-problem-memory 2.md`；保留本機但不列入公開地圖。 |
 
 ## AI 能力五個階段：這一百多篇攻略如何連成一條成長路線
 
