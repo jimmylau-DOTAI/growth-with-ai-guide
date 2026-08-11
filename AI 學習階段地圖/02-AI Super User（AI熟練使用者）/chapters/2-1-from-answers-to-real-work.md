@@ -158,6 +158,6 @@ Task brief 可以令交接更清楚，但它不會自動解除資料、授權或
 | 每次都要重新選材料 | [Context 怎樣複利](./2-2-context-compounding.md) | 一個最小 context pack |
 | 每次修改只留在 chat | [把 feedback 變成規則](./練習-turn-feedback-into-a-rule.md) | 一張 reference card |
 | 想確認材料夠不夠起草 | [Context 是否已 ready to draft](./2-12-is-context-ready-to-draft.md) | 一次 draft-ready 判斷 |
-| 同一工作已反覆跑、想交接流程 | [AI Operator stage](../../03-AI Operator（AI工作操作者）/README.md) | 一份可交接 SOP 與狀態 |
+| 同一工作已反覆跑、想交接流程 | [AI Operator stage](<../../03-AI Operator（AI工作操作者）/README.md>) | 一份可交接 SOP 與狀態 |
 
 可返回 [AI Super User stage](../README.md) 看其他入口。例子只用公開／synthetic 情境，不代表任何客戶、公司或 DotAI 已取得的成果。

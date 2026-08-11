@@ -183,6 +183,6 @@ Reviewability 也影響你能否從錯誤學習。若工具只丟出一大段答
 | 任務仍未交代清楚 | [AI 答案怎樣變 task brief](./2-1-from-answers-to-real-work.md) | 可重跑 brief |
 | 每次 output 都要重改 | [把 feedback 變成判斷](./2-9-feedback-into-judgment.md) | Reference rule |
 | 想確認 context 是否可起稿 | [Context 是否 ready to draft](./2-12-is-context-ready-to-draft.md) | Draft-ready decision |
-| 同類工作已反覆交接 | [AI Operator stage](../../03-AI Operator（AI工作操作者）/README.md) | SOP、state、exception |
+| 同類工作已反覆交接 | [AI Operator stage](<../../03-AI Operator（AI工作操作者）/README.md>) | SOP、state、exception |
 
 可返回 [AI Super User stage](../README.md) 看其他入口。例子只用公開／synthetic 情境，不代表任何客戶、公司或 DotAI 已取得的成果。

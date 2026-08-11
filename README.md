@@ -12,11 +12,11 @@ Jimmy Lau 是 DotAI 的 Founding Partner — AI Adoption & Education，專注將
 
 | 你而家最常遇到的情況 | 由這一關開始 | 先留下甚麼 |
 |---|---|---|
-| 我只想 AI 先幫我完成一件工作 | [AI User（AI使用者）](AI 學習階段地圖/01-AI User（AI使用者）/README.md) | 第一份可 review 的 AI 成果 |
-| AI 每次都要我重講背景，答案不夠貼身 | [AI Super User（AI熟練使用者）](AI 學習階段地圖/02-AI Super User（AI熟練使用者）/README.md) | context、任務包和 feedback rule |
-| 重複工作交不到同事或 AI | [AI Operator（AI工作操作者）](AI 學習階段地圖/03-AI Operator（AI工作操作者）/README.md) | work map、SOP 和現況交接 |
-| 我想做 Codex、Skill、Agent 或 automation | [AI Builder（AI建立者）](AI 學習階段地圖/04-AI Builder（AI建立者）/README.md) | AI work card、品質閘和試跑紀錄 |
-| 我想帶團隊、教人、做服務或證明價值 | [AI Value Creator（AI價值創造者）](AI 學習階段地圖/05-AI Value Creator（AI價值創造者）/README.md) | 安全 pilot 和 value proof |
+| 我只想 AI 先幫我完成一件工作 | [AI User（AI使用者）](<AI 學習階段地圖/01-AI User（AI使用者）/README.md>) | 第一份可 review 的 AI 成果 |
+| AI 每次都要我重講背景，答案不夠貼身 | [AI Super User（AI熟練使用者）](<AI 學習階段地圖/02-AI Super User（AI熟練使用者）/README.md>) | context、任務包和 feedback rule |
+| 重複工作交不到同事或 AI | [AI Operator（AI工作操作者）](<AI 學習階段地圖/03-AI Operator（AI工作操作者）/README.md>) | work map、SOP 和現況交接 |
+| 我想做 Codex、Skill、Agent 或 automation | [AI Builder（AI建立者）](<AI 學習階段地圖/04-AI Builder（AI建立者）/README.md>) | AI work card、品質閘和試跑紀錄 |
+| 我想帶團隊、教人、做服務或證明價值 | [AI Value Creator（AI價值創造者）](<AI 學習階段地圖/05-AI Value Creator（AI價值創造者）/README.md>) | 安全 pilot 和 value proof |
 
 ## 用兩種方式找下一篇
 

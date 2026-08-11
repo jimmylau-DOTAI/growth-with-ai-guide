@@ -190,7 +190,7 @@ review 不一定要很技術化。對文件和知識工作，讀回成果、核�
 |---|---|---|
 | 開場仍然沒有材料和完成線 | [五格組一個 AI task pack](./練習-build-an-ai-task-pack.md) | 一份可 review task pack |
 | 每次 feedback 沒有留下 | [把 feedback 變成規則](./練習-turn-feedback-into-a-rule.md) | 一張 reference card |
-| 想把重複任務正式交接 | [AI Operator stage](../../03-AI Operator（AI工作操作者）/README.md) | SOP、可讀狀態和例外處理 |
-| 任務牽涉敏感資料或外部動作 | [哪些資料暫時不要上傳 AI](../../01-AI User（AI使用者）/chapters/1-5-materials-not-to-upload-to-ai.md) | material check 與人手 boundary |
+| 想把重複任務正式交接 | [AI Operator stage](<../../03-AI Operator（AI工作操作者）/README.md>) | SOP、可讀狀態和例外處理 |
+| 任務牽涉敏感資料或外部動作 | [哪些資料暫時不要上傳 AI](<../../01-AI User（AI使用者）/chapters/1-5-materials-not-to-upload-to-ai.md>) | material check 與人手 boundary |
 
 可返回 [AI Super User stage](../README.md) 看其他入口。例子只用公開／synthetic 情境，不代表任何客戶、公司或 DotAI 已取得的成果。

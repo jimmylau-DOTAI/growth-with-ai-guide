@@ -144,6 +144,6 @@ AI 內容的 review 很容易變成「感覺順不順、像不像我」。語氣
 
 暫時不要把它接到私有客戶資料、未公開策略、付款／CRM 資料或發文權限；也不要因為一輪試跑順利，就宣稱已建立 autonomous content system。當你先把這個小單位跑穩，才有根據考慮更多渠道、更多版本或更多自動化。
 
-想先讓 AI 接到正在發生但仍受控制的資料，可讀 [先讓 AI 接到正在發生的資料](../../03-AI Operator（AI工作操作者）/chapters/3-13-live-data-before-ai-content.md)。想把內容變成可接手流程，讀：[AI 寫內容，不等於你有內容系統](../../03-AI Operator（AI工作操作者）/chapters/3-14-content-system-not-ai-writing.md)。
+想先讓 AI 接到正在發生但仍受控制的資料，可讀 [先讓 AI 接到正在發生的資料](<../../03-AI Operator（AI工作操作者）/chapters/3-13-live-data-before-ai-content.md>)。想把內容變成可接手流程，讀：[AI 寫內容，不等於你有內容系統](<../../03-AI Operator（AI工作操作者）/chapters/3-14-content-system-not-ai-writing.md>)。
 
 ← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../學習地圖.md)

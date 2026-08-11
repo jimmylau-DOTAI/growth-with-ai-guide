@@ -145,7 +145,7 @@ run receipt 不必很複雜。第一輪可以只記六格：work purpose、appro
 | Stop line | exception 有 fallback | 不讓 Agent 繼續猜 |
 | Scale gate | evidence 後才談擴大 | 先跑小範圍 pilot |
 
-想先把 Agent 的工作邊界寫清，讀 [workbench contract](../../04-AI Builder（AI建立者）/chapters/4-19-workbench-contract.md)；要設計第一條可停的 Agent workflow，讀 [先跑一條可停的 Agent loop](../../04-AI Builder（AI建立者）/chapters/4-25-first-agent-loop.md)。
+想先把 Agent 的工作邊界寫清，讀 [workbench contract](<../../04-AI Builder（AI建立者）/chapters/4-19-workbench-contract.md>)；要設計第一條可停的 Agent workflow，讀 [先跑一條可停的 Agent loop](<../../04-AI Builder（AI建立者）/chapters/4-25-first-agent-loop.md>)。
 
 > 企業 Agent 的價值，不是少了幾個人手點擊；而是它在清楚權限、可見 state 和人手負責下，穩定完成一段可驗收工作。
 

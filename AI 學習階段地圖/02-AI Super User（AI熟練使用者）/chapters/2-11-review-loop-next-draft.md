@@ -176,6 +176,6 @@ Stop 的價值是保護你不把流暢 draft 當成可採用結果。它同時�
 | 想把重複 memo 變成規則 | [把 feedback 變成判斷](./2-9-feedback-into-judgment.md) | Reference card |
 | 想先把事實與未知分開 | [生成前先分 evidence 和未知](./2-8-evidence-before-generation.md) | 四欄 brief |
 | 不知 context 是否已可起稿 | [Context 是否 ready to draft](./2-12-is-context-ready-to-draft.md) | Draft-ready decision |
-| 同類工作已有穩定 loop | [AI Operator stage](../../03-AI Operator（AI工作操作者）/README.md) | SOP、state、exception |
+| 同類工作已有穩定 loop | [AI Operator stage](<../../03-AI Operator（AI工作操作者）/README.md>) | SOP、state、exception |
 
 可返回 [AI Super User stage](../README.md) 看其他入口。例子只用公開／synthetic 情境，不代表任何客戶、公司或 DotAI 已取得的成果。

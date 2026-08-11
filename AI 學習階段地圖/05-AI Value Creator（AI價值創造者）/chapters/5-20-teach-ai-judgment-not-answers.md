@@ -145,7 +145,7 @@ Stage 的作用是幫教學者判斷下一步：AI User 先完成一件有 conte
 | 邊界 | 不給甚麼資料、不做甚麼 action | 保持安全與信任 |
 | 下一步 | 完成後可再讀哪一篇 | 連到下一個 stage |
 
-想先設計新手的安全成果，讀 [第一個安全成果](./5-10-first-safe-outcome.md)；要把 feedback 留成更穩的工作判斷，讀 [把 feedback 變成判斷](../../02-AI Super User（AI熟練使用者）/chapters/2-9-feedback-into-judgment.md)。
+想先設計新手的安全成果，讀 [第一個安全成果](./5-10-first-safe-outcome.md)；要把 feedback 留成更穩的工作判斷，讀 [把 feedback 變成判斷](<../../02-AI Super User（AI熟練使用者）/chapters/2-9-feedback-into-judgment.md>)。
 
 > AI education 的成果不是人人有一條 prompt；是每個人多了一個能在真工作裏作判斷、留下證據和安全前進的反射。
 

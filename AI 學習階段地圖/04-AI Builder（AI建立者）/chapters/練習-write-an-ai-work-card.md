@@ -161,7 +161,7 @@ content owner review，標準是每項可回原資料、unknown 不補事實、�
 | Observation | 一個貼近 pain 的變化 | 不先講 ROI |
 | Decision | retain／revise／stop | 跑一次小試行 |
 
-想記錄本輪實際交了甚麼和誰收貨，讀 [AI 話做完時點樣先收貨](./練習-write-an-ai-run-receipt.md)；想在多次 run 後誠實判斷價值，讀 [AI 有冇真價值點樣證明](../../05-AI Value Creator（AI價值創造者）/chapters/練習-write-an-ai-value-proof-card.md)。
+想記錄本輪實際交了甚麼和誰收貨，讀 [AI 話做完時點樣先收貨](./練習-write-an-ai-run-receipt.md)；想在多次 run 後誠實判斷價值，讀 [AI 有冇真價值點樣證明](<../../05-AI Value Creator（AI價值創造者）/chapters/練習-write-an-ai-value-proof-card.md>)。
 
 > AI work card 的作用不是令你看起來有 AI team；是令你知道一件 AI 工作到底值不值得繼續。
 

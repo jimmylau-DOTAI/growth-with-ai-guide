@@ -154,8 +154,8 @@ AI 只可讀甚麼：＿＿＿＿＿＿＿＿＿＿
 
 | 你下一個卡位 | 應讀哪裡 | 你會留下甚麼 |
 |---|---|---|
-| 已揀到工作，但不知道怎樣交代 | [第一件 AI 工作怎樣做到可驗收](../../02-AI Super User（AI熟練使用者）/chapters/2-1-from-answers-to-real-work.md) | 一份有成果、材料、完成線、停位的交代 |
+| 已揀到工作，但不知道怎樣交代 | [第一件 AI 工作怎樣做到可驗收](<../../02-AI Super User（AI熟練使用者）/chapters/2-1-from-answers-to-real-work.md>) | 一份有成果、材料、完成線、停位的交代 |
 | 完全不知道哪件工作不應交 | [幾時唔應該將第一件工作交畀 AI](./1-4-when-not-to-delegate-your-first-task.md) | 一張「暫時不交」決策卡 |
-| 想建立個人可重用做法 | [AI Super User stage](../../02-AI Super User（AI熟練使用者）/README.md) | 可再用的 context 和 feedback 方式 |
+| 想建立個人可重用做法 | [AI Super User stage](<../../02-AI Super User（AI熟練使用者）/README.md>) | 可再用的 context 和 feedback 方式 |
 
 可返回 [AI User stage](../README.md) 看其他入口。本文例子只用公開／synthetic 情境，不代表任何客戶、公司或 DotAI 已取得的成果。

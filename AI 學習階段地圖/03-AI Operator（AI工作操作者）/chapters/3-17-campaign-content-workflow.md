@@ -144,7 +144,7 @@ handoff card 最少包括：
 4. 每個版本目前的 state 和 review owner；
 5. 已完成／blocked 的決定，以及下一輪假設。
 
-想先把單次內容變成可累積流程，可讀 [AI 寫內容，不等於你有內容系統](./3-14-content-system-not-ai-writing.md)。當某個 routine 已經跑穩，才考慮怎樣包成可重用能力，閱讀 [Skill 其實是一份工作合約](../../04-AI Builder（AI建立者）/chapters/4-23-skill-is-a-work-contract.md)。
+想先把單次內容變成可累積流程，可讀 [AI 寫內容，不等於你有內容系統](./3-14-content-system-not-ai-writing.md)。當某個 routine 已經跑穩，才考慮怎樣包成可重用能力，閱讀 [Skill 其實是一份工作合約](<../../04-AI Builder（AI建立者）/chapters/4-23-skill-is-a-work-contract.md>)。
 
 ---
 

@@ -154,6 +154,6 @@ AI 的流暢語言很容易掩蓋未知：某個日期尚未確認，它仍可�
 | 想即刻填第一份材料與完成線 | [五格組一個 AI task pack](./練習-build-an-ai-task-pack.md) | 可 review task pack |
 | 不知道資料缺口要起稿、問人還是停 | [資料未齊唔等於要停](./2-12-is-context-ready-to-draft.md) | draft-ready decision |
 | 想把已認可例子和回饋累積起來 | [由收集 prompt 到 context 複利](./2-2-context-compounding.md) | 可重用 context |
-| 同類工作已穩定重複 | [AI Operator stage](../../03-AI Operator（AI工作操作者）/README.md) | SOP、state、exception |
+| 同類工作已穩定重複 | [AI Operator stage](<../../03-AI Operator（AI工作操作者）/README.md>) | SOP、state、exception |
 
 可返回 [AI Super User stage](../README.md) 看其他入口。這是 Jimmy 的公開工作方法；它不代表任何模型已記住你的私人資料，也不構成資料存取、外發、系統寫入或 production action 的批准。

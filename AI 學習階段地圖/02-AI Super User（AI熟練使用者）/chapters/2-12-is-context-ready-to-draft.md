@@ -218,6 +218,6 @@ Review owner：＿＿＿＿＿＿＿＿＿＿
 | Task、材料和停位仍未清楚 | [五格組一個 AI task pack](./練習-build-an-ai-task-pack.md) | 可 review task pack |
 | 想先分清 evidence 和 unknown | [生成前先分 evidence 和未知](./2-8-evidence-before-generation.md) | 四欄 brief |
 | 需要將 review 留到下次 | [AI 第二稿 review loop](./2-11-review-loop-next-draft.md) | Revision memo |
-| 工作已反覆、分流穩定 | [AI Operator stage](../../03-AI Operator（AI工作操作者）/README.md) | SOP、state、exception |
+| 工作已反覆、分流穩定 | [AI Operator stage](<../../03-AI Operator（AI工作操作者）/README.md>) | SOP、state、exception |
 
 可返回 [AI Super User stage](../README.md) 看其他入口。這是 Jimmy 的工作分流法；它不構成資料、法律、資安、研究或任何對外 action 的批准。

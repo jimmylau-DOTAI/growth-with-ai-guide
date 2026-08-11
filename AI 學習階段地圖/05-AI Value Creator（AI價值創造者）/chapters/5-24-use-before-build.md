@@ -142,7 +142,7 @@ use before build · AI product · AI service · AI course · workflow validation
 | 別人能用嗎？ | guided trial | onboarding／productization |
 | 手動是瓶頸嗎？ | 比較 rework 與等待 | automation decision |
 
-想把第三次才出現的規則寫成 SOP，讀 [第三次先寫 minimum SOP](../../03-AI Operator（AI工作操作者）/chapters/3-7-third-time-minimum-sop.md)；想把一次成功的示範變成可重用 Skill，讀 [示範過一次後，怎樣變成 Skill？](../../04-AI Builder（AI建立者）/chapters/4-11-demo-to-skill.md)。
+想把第三次才出現的規則寫成 SOP，讀 [第三次先寫 minimum SOP](<../../03-AI Operator（AI工作操作者）/chapters/3-7-third-time-minimum-sop.md>)；想把一次成功的示範變成可重用 Skill，讀 [示範過一次後，怎樣變成 Skill？](<../../04-AI Builder（AI建立者）/chapters/4-11-demo-to-skill.md>)。
 
 > 先用過，不是拖慢 build；是用最小成本找到真正值得 build 的那一格。
 

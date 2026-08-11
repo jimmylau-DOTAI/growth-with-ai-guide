@@ -183,6 +183,6 @@ Context 會隨工作變化。當一條 rule 多次幫你減少相同返工，可
 | 想把規則變成可用卡片 | [把 feedback 變成下一次規則](./練習-turn-feedback-into-a-rule.md) | Reference card |
 | 想確認 context 是否可起稿 | [Context 是否 ready to draft](./2-12-is-context-ready-to-draft.md) | Draft-ready decision |
 | 想先分清事實和推論 | [生成前先分 evidence 和未知](./2-8-evidence-before-generation.md) | 四欄 brief |
-| 同類工作已可交接 | [AI Operator stage](../../03-AI Operator（AI工作操作者）/README.md) | SOP、狀態和例外處理 |
+| 同類工作已可交接 | [AI Operator stage](<../../03-AI Operator（AI工作操作者）/README.md>) | SOP、狀態和例外處理 |
 
 可返回 [AI Super User stage](../README.md) 看其他入口。例子只用公開／synthetic 情境，不代表任何客戶、公司或 DotAI 已取得的成果。

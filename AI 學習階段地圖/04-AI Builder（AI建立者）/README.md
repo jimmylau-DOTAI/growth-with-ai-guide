@@ -65,6 +65,6 @@
 
 ## 何時值得進入下一關？
 
-當你已留下「一張 AI work card、一次可停止的試跑、明確的品質閘和 run receipt。」而且知道它在哪些情況不適用，就可進入 [AI Value Creator（AI價值創造者）：帶人用 AI 創造可證明價值](../05-AI Value Creator（AI價值創造者）/README.md)。這不是考牌；如果工作仍然卡在這一關，留在這裡多試一次反而更好。
+當你已留下「一張 AI work card、一次可停止的試跑、明確的品質閘和 run receipt。」而且知道它在哪些情況不適用，就可進入 [AI Value Creator（AI價值創造者）：帶人用 AI 創造可證明價值](<../05-AI Value Creator（AI價值創造者）/README.md>)。這不是考牌；如果工作仍然卡在這一關，留在這裡多試一次反而更好。
 
 [← 回到學習地圖](../../學習地圖.md)

@@ -191,4 +191,4 @@ DotAI 從真工作、合適練習和人手 review 開始，協助個人和團隊
 | 想帶團隊由安全 workflow 起步 | [DotAI 企業 AI 培訓](https://dotai.hk/servicetraining) | 一條有 owner、review 和衡量方法的 pilot |
 | 想先做第一件小工作 | [ChatGPT 新手工作交接練習](./1-6-start-here-first-ai-work.md) | 一次可重做、可驗收的 AI 交接 |
 
-想看其他 AI User 入口，可返回 [AI User stage](../README.md)；在真正需要重複交接時，才再走向 [AI Super User stage](../../02-AI Super User（AI熟練使用者）/README.md)。
+想看其他 AI User 入口，可返回 [AI User stage](../README.md)；在真正需要重複交接時，才再走向 [AI Super User stage](<../../02-AI Super User（AI熟練使用者）/README.md>)。

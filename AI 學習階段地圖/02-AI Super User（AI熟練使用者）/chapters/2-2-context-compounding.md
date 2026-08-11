@@ -156,6 +156,6 @@ AI 初稿交了甚麼：＿＿＿＿＿＿＿＿＿＿
 | 有一次安全 draft | [把答案變成 task brief](./2-1-from-answers-to-real-work.md) | 第一份可重跑 brief |
 | 有三次修改紀錄 | [把 feedback 變成判斷](./2-9-feedback-into-judgment.md) | 一條有範圍 reference rule |
 | 有一致範例和驗收方式 | [確認 context 是否 ready to draft](./2-12-is-context-ready-to-draft.md) | 一個最小 context pack |
-| 工作已可重複交接 | [AI Operator stage](../../03-AI Operator（AI工作操作者）/README.md) | SOP、狀態與例外處理 |
+| 工作已可重複交接 | [AI Operator stage](<../../03-AI Operator（AI工作操作者）/README.md>) | SOP、狀態與例外處理 |
 
 可返回 [AI Super User stage](../README.md) 看其他入口。例子只用公開／synthetic 情境，不代表任何客戶、公司或 DotAI 已取得的成果。

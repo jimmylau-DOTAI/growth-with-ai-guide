@@ -182,6 +182,6 @@ Expiry：每次 evidence policy 或讀者定位變更時重看。
 | 今次工作仍未交代清楚 | [五格組一個 AI task pack](./練習-build-an-ai-task-pack.md) | task、材料、邊界、review |
 | 不知改稿後應 pass、revise 還是 stop | [AI 第二稿 review loop](./2-11-review-loop-next-draft.md) | revision memo |
 | 想先分清 source 與自己的判斷 | [一篇 source 怎樣變成工作判斷](./練習-turn-a-source-into-your-own-decision.md) | source-to-decision note |
-| 同類工作已開始穩定交接 | [AI Operator stage](../../03-AI Operator（AI工作操作者）/README.md) | SOP、state、exception |
+| 同類工作已開始穩定交接 | [AI Operator stage](<../../03-AI Operator（AI工作操作者）/README.md>) | SOP、state、exception |
 
 可返回 [AI Super User stage](../README.md) 看其他入口。本文只用公開／synthetic 情境；reference card 不構成資料存取、外發、系統寫入或 production action 的批准。

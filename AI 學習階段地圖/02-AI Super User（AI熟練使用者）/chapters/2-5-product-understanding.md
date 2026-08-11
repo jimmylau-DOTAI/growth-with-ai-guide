@@ -182,6 +182,6 @@ Logo、文字和細節呈現同樣需要檢查。即使畫面整體合理，產�
 | 想逐項做一次產品理解 | [理解報告的八項檢查](./練習-ai-understand-product-before-generating.md) | 一份可 review 理解報告 |
 | 想把 facts、unknown 和主張分開 | [生成前先分 evidence 和未知](./2-8-evidence-before-generation.md) | evidence／unknown 表 |
 | 想讓修改變成下次規則 | [把 feedback 變成判斷](./2-9-feedback-into-judgment.md) | 一張 reference rule |
-| 同一工作已經反覆出現 | [AI Operator stage](../../03-AI Operator（AI工作操作者）/README.md) | 可交接 SOP 與狀態 |
+| 同一工作已經反覆出現 | [AI Operator stage](<../../03-AI Operator（AI工作操作者）/README.md>) | 可交接 SOP 與狀態 |
 
 可返回 [AI Super User stage](../README.md) 看其他入口。例子只用公開／synthetic 情境，不代表任何客戶、公司或 DotAI 已取得的成果。

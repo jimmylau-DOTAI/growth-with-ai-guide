@@ -164,6 +164,6 @@ Unknown：日期；在 draft 標待 owner 確認。
 | 想將問題、材料和停位寫成 brief | [五格組一個 AI task pack](./練習-build-an-ai-task-pack.md) | 可 review task pack |
 | 想分清 unknown 應起稿、問人還是停 | [資料未齊唔等於要停](./2-12-is-context-ready-to-draft.md) | draft-ready decision |
 | AI 已有 output，但不知怎樣收貨 | [AI 第二稿 review loop](./2-11-review-loop-next-draft.md) | pass／revise／stop |
-| 相近工作開始能交接 | [AI Operator stage](../../03-AI Operator（AI工作操作者）/README.md) | SOP、state、exception |
+| 相近工作開始能交接 | [AI Operator stage](<../../03-AI Operator（AI工作操作者）/README.md>) | SOP、state、exception |
 
 可返回 [AI Super User stage](../README.md) 看其他入口。本文的練習只用公開／synthetic 情境；反問不構成資料、法律、權限、外發或 production action 的批准。

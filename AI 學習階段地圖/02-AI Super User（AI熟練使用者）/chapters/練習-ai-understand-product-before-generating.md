@@ -153,6 +153,6 @@ Confirmed：＿＿＿＿＿＿＿＿＿＿
 | 任務和材料仍未交代清楚 | [五格組一個 AI task pack](./練習-build-an-ai-task-pack.md) | task、material、boundary、review |
 | 發現 AI 總在未決定處自行猜 | [先反問，再回答](./練習-ai-counter-question-before-answering.md) | 承重反問與假設 |
 | 要將未知分成起稿、問人、研究或 stop | [資料未齊唔等於要停](./2-12-is-context-ready-to-draft.md) | draft-ready decision |
-| 相近理解流程已經跑穩 | [AI Operator stage](../../03-AI Operator（AI工作操作者）/README.md) | SOP、state、exception |
+| 相近理解流程已經跑穩 | [AI Operator stage](<../../03-AI Operator（AI工作操作者）/README.md>) | SOP、state、exception |
 
 可返回 [AI Super User stage](../README.md) 看其他入口。例子只用公開／synthetic 情境；本文不構成任何產品規格、品牌 claim、資料存取、發佈或 production action 的批准。

@@ -183,6 +183,6 @@ Evidence boundary／仍未知：＿＿＿＿＿＿＿＿＿＿
 | 想把一個來源變成自己的判斷 | [將 source 變成自己的 decision](./練習-turn-a-source-into-your-own-decision.md) | source-to-decision note |
 | 想確認材料是否足夠起稿 | [Context 是否 ready to draft](./2-12-is-context-ready-to-draft.md) | draft-ready 判斷 |
 | 想把修改變成規則 | [把 feedback 變成判斷](./2-9-feedback-into-judgment.md) | reference rule |
-| 想交接重複工作 | [AI Operator stage](../../03-AI Operator（AI工作操作者）/README.md) | SOP、state 和例外處理 |
+| 想交接重複工作 | [AI Operator stage](<../../03-AI Operator（AI工作操作者）/README.md>) | SOP、state 和例外處理 |
 
 可返回 [AI Super User stage](../README.md) 看其他入口。例子只用公開／synthetic 情境，不代表任何客戶、公司或 DotAI 已取得的成果。

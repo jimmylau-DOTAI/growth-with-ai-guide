@@ -139,7 +139,7 @@ AI 只可以用的材料：＿＿＿＿＿＿＿＿＿＿
 我會怎樣 review 和收貨：＿＿＿＿＿＿＿＿＿＿
 ```
 
-完成這張卡後，可讀 [第一件 AI 工作怎樣做到可驗收](../../02-AI Super User（AI熟練使用者）/chapters/2-1-from-answers-to-real-work.md)，把「試工具」變成第一次真正交工作。暫時不要把它連到客戶資料、CRM、付款、對外發送或任何不可逆操作。
+完成這張卡後，可讀 [第一件 AI 工作怎樣做到可驗收](<../../02-AI Super User（AI熟練使用者）/chapters/2-1-from-answers-to-real-work.md>)，把「試工具」變成第一次真正交工作。暫時不要把它連到客戶資料、CRM、付款、對外發送或任何不可逆操作。
 
 ## 想把 AI 工具由試玩，變成團隊可用的工作流程？
 
@@ -152,7 +152,7 @@ DotAI 由真工作、合適練習和人手 review 開始，協助個人和團隊
 | 你現在想解的問題 | 可看的方向 | 下一個成果 |
 |---|---|---|
 | 想為個人工作揀對 AI 入口 | [AI User stage](../README.md) | 一張安全 first-task card |
-| 想把重複工作變成可重用做法 | [AI Super User stage](../../02-AI Super User（AI熟練使用者）/README.md) | 一份 context 和 feedback 的工作包 |
+| 想把重複工作變成可重用做法 | [AI Super User stage](<../../02-AI Super User（AI熟練使用者）/README.md>) | 一份 context 和 feedback 的工作包 |
 | 想由安全 workflow 帶團隊實戰 | [DotAI 企業 AI 培訓](https://dotai.hk/servicetraining) | 一條有 owner、review 和衡量方法的 pilot |
 
 上面的例子只用公開／synthetic 情境，不代表任何客戶、公司或 DotAI 已取得的結果。可返回 [Growth with AI library](../README.md) 選下一個和你工作最接近的入口。

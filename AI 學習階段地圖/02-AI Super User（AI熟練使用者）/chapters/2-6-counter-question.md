@@ -174,6 +174,6 @@ AI 的工作方式通常是根據你給它的文字和材料，嘗試交出有�
 | 想照步驟跑一次反問 | [一段反問指令，三個力度](./練習-ai-counter-question-before-answering.md) | clarification receipt |
 | 想把條件放回任務開場 | [AI 答案怎樣變 task brief](./2-1-from-answers-to-real-work.md) | 可重跑 task brief |
 | 每次仍因資料不足出錯 | [生成前先分 evidence 和未知](./2-8-evidence-before-generation.md) | evidence／unknown 表 |
-| 工作已反覆、問題清楚 | [AI Operator stage](../../03-AI Operator（AI工作操作者）/README.md) | SOP、owner、例外處理 |
+| 工作已反覆、問題清楚 | [AI Operator stage](<../../03-AI Operator（AI工作操作者）/README.md>) | SOP、owner、例外處理 |
 
 可返回 [AI Super User stage](../README.md) 看其他入口。例子只用公開／synthetic 情境，不代表任何客戶、公司或 DotAI 已取得的成果。

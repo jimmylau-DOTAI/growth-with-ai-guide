@@ -155,7 +155,7 @@ Jimmy 的結論是：你存的是單條，選題需要的是比較；真正屬�
 4. 用一個公開／synthetic 例子起一個可 review draft；
 5. 發出或內部 review 後，將自己的 evidence 回填選題卡。
 
-想把外部 source 先消化成自己的工作判斷，可讀 [一篇 source 點樣先變成你自己的工作判斷？](../../02-AI Super User（AI熟練使用者）/chapters/練習-turn-a-source-into-your-own-decision.md)。當一條內容流程已開始重複，才考慮把它做成有回饋的 AI Builder workflow，閱讀 [循環工程是回饋系統設計](../../04-AI Builder（AI建立者）/chapters/4-3-loop-engineering.md)。
+想把外部 source 先消化成自己的工作判斷，可讀 [一篇 source 點樣先變成你自己的工作判斷？](<../../02-AI Super User（AI熟練使用者）/chapters/練習-turn-a-source-into-your-own-decision.md>)。當一條內容流程已開始重複，才考慮把它做成有回饋的 AI Builder workflow，閱讀 [循環工程是回饋系統設計](<../../04-AI Builder（AI建立者）/chapters/4-3-loop-engineering.md>)。
 
 ---
 

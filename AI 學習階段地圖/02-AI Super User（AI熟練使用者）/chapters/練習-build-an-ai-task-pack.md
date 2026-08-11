@@ -206,6 +206,6 @@ review 後，保留的不是整段 chat，而是一條最有用的修改理由�
 | 不知資料缺口可否起稿 | [資料未齊唔等於要停](./2-12-is-context-ready-to-draft.md) | draft-ready decision |
 | 想分清 evidence、解讀與 unknown | [生成前先分 evidence 和未知](./2-8-evidence-before-generation.md) | 四欄 brief |
 | 已有 first draft，想令第二稿真的較好 | [AI 第二稿 review loop](./2-11-review-loop-next-draft.md) | revision memo |
-| 同類工作已穩定重複 | [AI Operator stage](../../03-AI Operator（AI工作操作者）/README.md) | SOP、state、exception |
+| 同類工作已穩定重複 | [AI Operator stage](<../../03-AI Operator（AI工作操作者）/README.md>) | SOP、state、exception |
 
 可返回 [AI Super User stage](../README.md) 看其他入口。本文只用公開／synthetic 情境；task pack 不構成資料存取、外發、系統寫入或 production action 的批准。

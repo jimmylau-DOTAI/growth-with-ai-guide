@@ -137,7 +137,7 @@ AI 反覆犯錯 · prompt · context window · AI memory · AI reliability · va
 | Stop | 不確定／越界時怎樣辦 | unknown → human |
 | Receipt | 下次記甚麼 | error pattern／next rule |
 
-想進一步設計整條 workflow 的可靠性，讀 [可靠性是 harness 問題](./4-1-harness-not-prompt.md)；想知道 feedback 怎樣變成下次更穩的判斷，讀 [把 feedback 變成判斷](../../02-AI Super User（AI熟練使用者）/chapters/2-9-feedback-into-judgment.md)。
+想進一步設計整條 workflow 的可靠性，讀 [可靠性是 harness 問題](./4-1-harness-not-prompt.md)；想知道 feedback 怎樣變成下次更穩的判斷，讀 [把 feedback 變成判斷](<../../02-AI Super User（AI熟練使用者）/chapters/2-9-feedback-into-judgment.md>)。
 
 > AI 出錯不一定代表它不懂；先分清這是一個需要更多 judgment 的問題，還是一個本來就應由 workflow check 擋住的問題。
 

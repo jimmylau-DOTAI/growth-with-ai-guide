@@ -172,8 +172,8 @@ Connector 或資料連接不是「能力多了」這麼簡單；它同時是一�
 | 你下一個卡位 | 接著讀甚麼 | 會留下甚麼 |
 |---|---|---|
 | 每次仍要重新講背景 | [由收藏 prompt 到 context 複利](./2-2-context-compounding.md) | 最小 context pack |
-| 不肯定材料是否可給 AI 看 | [哪些資料不應隨便上傳 AI](../../01-AI User（AI使用者）/chapters/1-5-materials-not-to-upload-to-ai.md) | material check |
+| 不肯定材料是否可給 AI 看 | [哪些資料不應隨便上傳 AI](<../../01-AI User（AI使用者）/chapters/1-5-materials-not-to-upload-to-ai.md>) | material check |
 | 想把一次任務交代得更穩 | [AI 答案怎樣變 task brief](./2-1-from-answers-to-real-work.md) | 可重跑 task brief |
-| 工作已反覆、想交接流程 | [AI Operator stage](../../03-AI Operator（AI工作操作者）/README.md) | SOP、狀態和例外處理 |
+| 工作已反覆、想交接流程 | [AI Operator stage](<../../03-AI Operator（AI工作操作者）/README.md>) | SOP、狀態和例外處理 |
 
 可返回 [AI Super User stage](../README.md) 看其他入口。例子只用公開／synthetic 情境，不代表任何客戶、公司或 DotAI 已取得的成果。

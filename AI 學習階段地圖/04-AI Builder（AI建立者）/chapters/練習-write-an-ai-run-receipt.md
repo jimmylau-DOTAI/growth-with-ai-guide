@@ -141,7 +141,7 @@ checks 記錄每個具體主張可回到 URL 或標 unknown，沒有未批准 CT
 | Unknown | 缺資料／例外／stop | 不確定可見 |
 | Decision | owner + accept／revise／stop | 責任與下一步 |
 
-要先為一條長期 workflow 定範圍，讀 [將一件重複工作寫成 AI work card](./練習-write-an-ai-work-card.md)；有多輪 receipt 後要判斷價值，讀 [為一次 AI 工作寫 value proof card](../../05-AI Value Creator（AI價值創造者）/chapters/練習-write-an-ai-value-proof-card.md)。
+要先為一條長期 workflow 定範圍，讀 [將一件重複工作寫成 AI work card](./練習-write-an-ai-work-card.md)；有多輪 receipt 後要判斷價值，讀 [為一次 AI 工作寫 value proof card](<../../05-AI Value Creator（AI價值創造者）/chapters/練習-write-an-ai-value-proof-card.md>)。
 
 > 可靠不是 AI 說「完成」；是有人能看見這一輪做過甚麼、尚欠甚麼，並作出下一個決定。
 

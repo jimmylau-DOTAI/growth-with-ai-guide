@@ -141,7 +141,7 @@ card 可以記：已觀察到從材料齊到可 review draft 的時間可被記�
 | Unknown／exception | 不確定可見 | 不要假裝結果 |
 | Decision | retain／revise／stop | 定一個最小下一步 |
 
-想先設計一條可驗收 AI 工作，讀 [將一件重複工作寫成 AI work card](../../04-AI Builder（AI建立者）/chapters/練習-write-an-ai-work-card.md)；想記錄每一次 run 的收貨證據，讀 [AI 話做完時點樣先收貨](../../04-AI Builder（AI建立者）/chapters/練習-write-an-ai-run-receipt.md)。
+想先設計一條可驗收 AI 工作，讀 [將一件重複工作寫成 AI work card](<../../04-AI Builder（AI建立者）/chapters/練習-write-an-ai-work-card.md>)；想記錄每一次 run 的收貨證據，讀 [AI 話做完時點樣先收貨](<../../04-AI Builder（AI建立者）/chapters/練習-write-an-ai-run-receipt.md>)。
 
 > 真 proof 不是講 AI 有幾勁；是坦白講清楚它幫邊一段工作、交咗乜、邊個 check，同埋仲有乜未證明。
 

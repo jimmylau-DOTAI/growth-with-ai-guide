@@ -185,6 +185,6 @@ Unknown 不是失敗訊號。它告訴你現在還缺哪一條資料、誰可能
 | 想把 feedback 寫成下一次規則 | [AI feedback 怎樣變成判斷](./2-9-feedback-into-judgment.md) | reference rule |
 | 想用 evidence 做內容／產品理解 | [先理解，再生成](./2-5-product-understanding.md) | 理解報告 |
 | 想判斷 context 是否已可起稿 | [Context 是否 ready to draft](./2-12-is-context-ready-to-draft.md) | draft-ready decision |
-| 同一工作已反覆且有 owner | [AI Operator stage](../../03-AI Operator（AI工作操作者）/README.md) | SOP、state、exception |
+| 同一工作已反覆且有 owner | [AI Operator stage](<../../03-AI Operator（AI工作操作者）/README.md>) | SOP、state、exception |
 
 可返回 [AI Super User stage](../README.md) 看其他入口。例子只用公開／synthetic 情境，不代表任何客戶、公司或 DotAI 已取得的成果。

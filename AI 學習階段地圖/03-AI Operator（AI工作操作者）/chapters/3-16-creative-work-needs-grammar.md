@@ -122,7 +122,7 @@ review card 最少要留：
 4. reviewer 選擇某版的理由；
 5. 下一次可重用的一條規則。
 
-想把 AI output 變成可收貨工作，可讀 [答案不等於一份工作](../../04-AI Builder（AI建立者）/chapters/4-22-answer-is-not-work.md)。想理解哪種重複創作流程才值得做成系統，可回到 [AI Builder](../../04-AI Builder（AI建立者）/README.md)。
+想把 AI output 變成可收貨工作，可讀 [答案不等於一份工作](<../../04-AI Builder（AI建立者）/chapters/4-22-answer-is-not-work.md>)。想理解哪種重複創作流程才值得做成系統，可回到 [AI Builder](<../../04-AI Builder（AI建立者）/README.md>)。
 
 ---
 

@@ -123,7 +123,7 @@ AI 搜尋 · GEO · SEO · AI visibility · content strategy · trustworthy answ
 | 有沒有 evidence boundary？ | 不把假設當成果 | 移除誇大數字與客戶暗示 |
 | 下一篇是否清楚？ | 不同卡位有對應連結 | 補 stage 與 topic route |
 
-完成一個主問題後，可讀 [內容方向是受眾問題的長期記憶](../../04-AI Builder（AI建立者）/chapters/4-33-content-direction-is-problem-memory.md) 來安排內容主題；想把自己的工作證據連成 portfolio，接著讀 [AI portfolio 點樣令人相信你識 AI](./5-15-show-your-ai-work.md)。
+完成一個主問題後，可讀 [內容方向是受眾問題的長期記憶](<../../04-AI Builder（AI建立者）/chapters/4-33-content-direction-is-problem-memory.md>) 來安排內容主題；想把自己的工作證據連成 portfolio，接著讀 [AI portfolio 點樣令人相信你識 AI](./5-15-show-your-ai-work.md)。
 
 > 可見度的起點不是流量，而是當一個買家問對問題時，你有沒有一個具體、可核對、值得信任的回答。
 
