@@ -1,0 +1,190 @@
+# AI 寫得好流暢，點解仍然唔敢用？先分清材料、判斷、未知和假設
+
+你已經會叫 AI 起草、整理或提出建議，但常常遇到一種更難處理的情況：內容看似完整，實際上混了舊資料、自己的推論和 AI 猜出來的細節。字愈流暢，反而愈難看出哪一句能夠真正採用。
+
+這不是單靠加長 prompt 就能解決。AI 不會自然知道資料是否最新、是否獲批准、是否互相矛盾；若人沒有先分清材料、判斷和未知，它很容易把空白位補成一句合理的說法。
+
+Jimmy 的判斷是：生成前最重要的不是要求 AI 更有信心，而是讓 AI 和 reviewer 同時看見「這一句靠甚麼」。當 evidence、interpretation、unknown 與 assumption 分開，第一稿才有可能安全地進入 review。
+
+| 內容裡混了甚麼 | 先放到哪一欄 | Reviewer 可以怎樣做 |
+|---|---|---|
+| 材料明確支持的事實 | Evidence | 回到來源核對 |
+| 人對材料的工作理解 | Interpretation | 判斷是否合理、適合本輪 |
+| 材料沒有回答的問題 | Unknown | 找 owner、補資料或暫停 |
+| 為讓探索版前進的暫定前提 | Assumption | 接受、改寫或推翻 |
+
+## AI 內容愈流暢點解愈要小心？問題通常不是文法，是根據混在一起
+
+一段 AI 文字可以同時包含四種完全不同性質的內容：某份資料真有說過的事實、你根據它作出的理解、目前還未知道的空白，以及為了寫 draft 暫時採用的前提。當它們全用同一種肯定語氣寫出來，讀者很難分辨哪句能夠直接採用。
+
+這種混合在 briefing、proposal、產品圖、課程內容和 workflow 設計都會發生。AI 不一定故意編造；它只是試圖把不完整資料組成一個可讀 output。真正的保護不是叫它「不要幻覺」而已，而是先給它一個讓不確定性有位置的工作格式。
+
+**Jimmy 的結論：** AI output 的風險不只在於錯誤，而在於事實、判斷、未知和假設被寫成同一種確定性。
+
+| 看似完整的句子 | 真正可能混了甚麼 | 應怎樣處理 |
+|---|---|---|
+| 「活動適合所有初學者」 | 公開主題＋你對受眾的推論 | 將受眾判斷放在 interpretation |
+| 「這個產品有某認證」 | 圖片線索或模型常識 | 沒有公開 evidence 就標 unknown |
+| 「這個流程可以節省時間」 | 一個方向、未測試的預期 | 寫成 assumption／待量度 |
+| 「下一步是立即自動化」 | 對工作問題的假設 | 先驗前提、定 owner 和 review |
+
+先把四種內容拆開，不會令 AI 變慢；它令你早一點看到哪個地方不應直接進入下一步。
+
+## Evidence、interpretation、unknown、assumption 有咩分別？一張四欄 brief 講清楚
+
+這四欄不是學術分類，而是一個工作用的澄清工具。Evidence 回答「材料直接支持甚麼」；interpretation 回答「我如何理解它」；unknown 回答「今次仍未知道甚麼」；assumption 回答「為了做探索版，我暫時用哪個前提」。
+
+分開後，你不再要求 AI 假裝所有事都有答案。它可以根據 evidence 起稿、根據 interpretation 提出方向、保留 unknown 讓人決定，並明示 assumption 只適用於本輪；每一格都有不同的 owner 和 review 方法。
+
+**Jimmy 的結論：** 四欄 brief 的目的不是寫更多，而是讓每一個主張知道自己是根據、判斷、空白還是暫定前提。
+
+| 四欄 | 它回答的問題 | 一個安全例子 |
+|---|---|---|
+| **Evidence** | 材料真正有講甚麼？ | 公開 workshop 頁列出的主題、形式和 agenda |
+| **Interpretation** | 這對本輪工作代表甚麼？ | 初學者可能先需要真工作例子而非功能列表 |
+| **Unknown** | 哪些會影響結果但還未知道？ | 講者、名額、價格、是否提供證書尚未確認 |
+| **Assumption** | 不等確認仍要起草時，暫時採用甚麼？ | 此 draft 暫定寫給已試過 AI 的 office worker |
+
+```text
+請先整理四欄 brief，不要直接寫最終內容。
+Evidence 只可引用我貼出的材料；Interpretation 要標明是工作判斷；
+Unknown 不可補完；Assumption 必須說明它影響哪一段和誰能確認。
+完成後只交 internal outline，等人 review。
+```
+
+有了這個格式，AI 第一個任務是令不確定性可見，而不是急著把它們寫成一篇很完整的文字。
+
+## AI 有材料但沒有 evidence 時，點解不能把「看起來合理」當作事實？
+
+材料不等於 evidence。舊 chat、截圖、記憶、過去的 draft 或一段網上說法，都可能幫你理解方向，但未必能支持一個具體、可對外使用的主張。若沒有分開，AI 很容易把「曾經見過」升格成「已被確認」。
+
+這不代表只有研究報告才可作 evidence。對一個內部 briefing，一段已批准文字、公開頁面或由 owner 確認的資料都可以是本輪 evidence；關鍵是你能說明它從哪裏來、適用到哪裏，而不是只因為 AI 讀過它便當作真。
+
+**Jimmy 的結論：** 看起來合理不是 evidence；只有你能回到材料核對、說明範圍的內容，才應被寫成已知事實。
+
+| 材料 | 可以怎樣用 | 不能直接用來證明甚麼 |
+|---|---|---|
+| 公開頁面和日期 | 支持頁面明確列出的內容 | 未列出的效能、價格或未來承諾 |
+| 已批准 FAQ | 用作當前已批准的說法 | 延伸到所有情境或新服務 |
+| 舊 chat／舊 draft | 提示可追問的方向 | 當成今天仍有效的事實 |
+| Screenshot／圖片 | 描述可見元素 | 推斷不可見規格、權限或結果 |
+| AI 自己的建議 | 作為 options | 當成來源或驗證結論 |
+
+若一個重要主張找不到 evidence，不一定要刪掉；可以把它改成問題、assumption 或保守的 interpretation，讓 owner 決定是否補資料。
+
+## AI interpretation 點樣寫，先保留你的判斷又不假裝它已被證明？
+
+人不應因為怕出錯便只貼資料、不作任何判斷。Interpretation 正是把 evidence 放回工作情況的地方：你可以說哪個方向較適合本輪讀者、哪個問題值得優先處理、哪些條件可能造成風險；這些都是 AI 幫不了你完全代替的工作理解。
+
+問題在於 interpretation 容易被寫成普遍真理。解法是寫清它來自哪個本輪 evidence、它適用於誰／哪個情境，以及甚麼情況會推翻這個判斷。這樣你保留了主體性，也讓 reviewer 有地方可以不同意。
+
+**Jimmy 的結論：** Interpretation 不是較弱的 evidence；它是有來源、有範圍、可以被人挑戰的工作判斷。
+
+| 太肯定的寫法 | 較可 review 的 interpretation | 需要的下一步 |
+|---|---|---|
+| 「初學者都喜歡簡單內容」 | 「根據今次公開資料，這個 outline 可先用真工作例子降低術語門檻」 | 在目標讀者 review 後確認 |
+| 「這個 workflow 一定有效」 | 「這條工作似乎有重複整理摩擦，值得做小範圍 pilot」 | 用 outcome 和 review 檢查 |
+| 「客戶會想要 agent」 | 「若問題是反覆手動整理，先驗證哪段可交接再談 agent」 | 問清真正卡位 |
+| 「這個產品定位高端」 | 「現有視覺與定價線索可先試較克制的畫面方向」 | 由品牌 owner 確認 |
+
+當 interpretation 有清楚邊界，AI 可以幫你把它整理成選項，但不能把它擴寫成沒有根據的承諾。
+
+## AI 遇到 unknown 時，怎樣留白先比亂填更有用？
+
+Unknown 不是失敗訊號。它告訴你現在還缺哪一條資料、誰可能有答案、缺口會影響哪一段 output。若你把 unknown 留在可見欄位，reviewer 可以決定要補資料、用保守寫法、改為 internal draft 或完全停止。
+
+最危險的做法是為了令文字完整，把 unknown 用常識填滿。這可能令一份內容看起來更專業，卻在真正使用時帶來錯誤資訊、未授權承諾或不合適決定；AI 和人都需要一個允許說「現在不知道」的位置。
+
+**Jimmy 的結論：** Unknown 是下一個問題的清單，不是應該被 AI 靜靜抹走的空白。
+
+| Unknown 類型 | 應怎樣寫 | 可由誰處理 |
+|---|---|---|
+| 缺事實 | 「公開材料未確認活動日期」 | 找公開正式資料或 owner |
+| 缺權限 | 「未確認可否使用這份內部文件」 | 資料／project owner |
+| 缺成功標準 | 「未定義哪些欄位代表 briefing 可採用」 | Reviewer／任務 owner |
+| 缺工作判斷 | 「未知道哪一步才是最大重做成本」 | 做工作的人觀察／訪談 |
+
+將 unknown 連到一個 owner 或下一步，才不會變成沒人理的警告。若沒有 owner 或不能安全補資料，最適合的決定就是停在 draft，不進入對外或正式動作。
+
+## Assumption 點樣讓 AI 繼續做，又不會偷偷變成對外承諾？
+
+有時你未有所有資料，但仍想先看方向、比較選項或起一份 internal outline。Assumption 讓工作可以繼續，但必須是明示、可推翻、有限範圍的前提，而不是藏在語氣很肯定的句子裡。
+
+一條好 assumption 會說清它影響哪一段、若錯了甚麼要改、誰能確認，以及本輪 output 只可用作甚麼。這讓你得到探索速度，同時不會把未知資料帶進對外內容、正式系統或不可逆決定。
+
+**Jimmy 的結論：** Assumption 是讓 internal draft 前進的暫時橋，不是讓 AI 把未知升格成事實的捷徑。
+
+| Assumption | 影響甚麼 | 正確邊界 |
+|---|---|---|
+| 暫定寫給已試過 AI 的 office worker | 用語深淺和例子 | 只用於探索版；確認讀者後再改 |
+| 暫定採用三段公開資料為本輪全數材料 | 內容和 evidence 範圍 | 不自行搜尋補充或宣稱全面 |
+| 暫定只做 internal briefing | 輸出和 review 方法 | 不外發、不作公開承諾 |
+| 暫定某流程是主要卡點 | 建議方向 | 要靠觀察／owner 確認才擴大 |
+
+```text
+本輪採用以下 assumption：＿＿＿＿＿＿＿＿＿＿
+它影響的 output：＿＿＿＿＿＿＿＿＿＿
+若它錯了，需要重做哪一段：＿＿＿＿＿＿＿＿＿＿
+誰能確認／推翻：＿＿＿＿＿＿＿＿＿＿
+本輪只可用作：internal draft／options／其他＿＿＿＿
+```
+
+這樣假設會成為可 review 的工作條件，而不是隱形地決定了整份內容的方向。
+
+## 用公開 workshop briefing 示範一次：四欄 brief 點樣令 AI draft 可 review？
+
+假設你要把一份已公開 workshop 簡介整理成 internal briefing。直接叫 AI「寫一篇宣傳介紹」，很容易令它補上未列出的講者、名額、價格、證書或預期效果；你在最後才發現時，已很難知道哪些句子來自材料。
+
+先做四欄 brief，AI 的第一份成果只是一個 outline：列出三個 evidence-supported 重點、兩個 interpretation、所有 unknown 和一條 assumption。人看完再決定補資料、寫哪個版本，或暫時不做對外內容。
+
+**Jimmy 的結論：** 四欄 brief 的好處不是令你永不出錯，而是讓每一個錯誤、未知和決定在生成前已有可見位置。
+
+| 四欄 | 本輪 synthetic／公開設定 |
+|---|---|
+| Evidence | 主題、公開形式、agenda 中列出的內容 |
+| Interpretation | 先用真工作例子講 AI，可能較適合降低術語門檻 |
+| Unknown | 講者、名額、價格、證書和日期未確認 |
+| Assumption | 先給已試過基本 AI 工具的 office worker 看 |
+
+```text
+請先交一份 internal workshop briefing outline，不要寫對外宣傳頁。
+列出：三條 evidence-supported 重點、兩條 interpretation、全部 unknown、所有 assumption。
+沒有 evidence 的資訊不可補成事實；未確認項目請標示需誰確認。
+完成後等待人 review，再決定是否需要下一稿。
+```
+
+這個例子也適用於產品、proposal、短片或內容；改變的只是 evidence 和 owner，四欄的工作仍然是一樣。
+
+## 四欄 brief 甚麼時候未夠，應該停而不是繼續生成？
+
+四欄可以令未知可見，但它不能替你補資料、授權或專業判斷。若 evidence 太少、unknown 影響核心主張、owner 不清楚、材料涉及敏感範圍，繼續生成只會產出一份更長的探索文本，並不會令任務變得安全或正確。
+
+同樣地，四欄不是要放到每一條低風險問題上。若只是改一個已批准句子的格式，完整 brief 可能太重；工作成本和後果較低時，清楚材料加短 review 已足夠。關鍵是能說明為何本輪需要哪種程度的澄清。
+
+**Jimmy 的結論：** 四欄 brief 是 clarification 工具，不是生成許可證；當核心 evidence、owner 或邊界未齊時，最好的 output 可能是停下來。
+
+| 看到的情況 | 應做甚麼 | 暫時不做甚麼 |
+|---|---|---|
+| Evidence 少於核心主張 | 補資料或縮小 output | 寫成完整對外內容 |
+| Unknown 影響價格、權限、合規或承諾 | 找 owner 確認 | 讓 AI 用合理猜測補完 |
+| 材料不知是否可用 | 改用公開／synthetic 練習 | 上傳原檔或整個 vault |
+| 任務只是低風險格式整理 | 用最小 task brief | 每次都開一份大四欄表 |
+
+知道何時停止生成，不是 AI 使用失敗；它是證明你已經把內容、資料和責任分開看。
+
+## 四欄 brief 完成後，怎樣由第一稿走到可重用的判斷？
+
+完成一份四欄 brief 後，讓 AI 起一份 internal draft，然後用事先寫好的驗收條件 review。把最終修改分成三類：evidence 需要補、interpretation 需要調整、或 assumption 被推翻；這會比一句「唔啱」更容易回收成下一次可用規則。
+
+當相同類型工作已跑過幾次，才把重複 evidence 欄位、常見 unknown 和 review 條件整理成 context pack 或 task brief template。若每次材料和判斷都不同，保留四欄 brief 反而更誠實，因為你還在學工作本身。
+
+**Jimmy 的結論：** 生成前分四欄，讓下一次的 AI 工作不只多一份 draft，而是多一條更清楚的 evidence、判斷與 review 規則。
+
+| 你下一個卡位 | 接著讀甚麼 | 會留下甚麼 |
+|---|---|---|
+| 想把 feedback 寫成下一次規則 | [AI feedback 怎樣變成判斷](./2-9-feedback-into-judgment.md) | reference rule |
+| 想用 evidence 做內容／產品理解 | [先理解，再生成](./2-5-product-understanding.md) | 理解報告 |
+| 想判斷 context 是否已可起稿 | [Context 是否 ready to draft](./2-12-is-context-ready-to-draft.md) | draft-ready decision |
+| 同一工作已反覆且有 owner | [AI Operator stage](../../03-AI Operator（AI工作操作者）/README.md) | SOP、state、exception |
+
+可返回 [AI Super User stage](../README.md) 看其他入口。例子只用公開／synthetic 情境，不代表任何客戶、公司或 DotAI 已取得的成果。

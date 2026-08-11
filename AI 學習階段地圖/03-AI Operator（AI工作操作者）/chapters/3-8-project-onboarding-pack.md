@@ -1,0 +1,138 @@
+# 新同事或新 AI 一入 project 就迷路？用一頁 onboarding pack 代替「自己睇晒啲文件」
+
+一個 project 做得愈耐，資料、決定、草稿和對話就愈多。最常見的 onboarding 方法是把資料夾分享出去，再說一句「你自己睇晒先」。新同事或新 AI 於是隨機讀到舊筆記、未完成草稿或已失效規則，花很多時間猜甚麼才是真的，最後問回原本的 owner。
+
+問題不是資料夾不夠大，也不是大家記性不好；而是沒有一個可信入口。下一位不需要先讀完所有歷史，他需要先知道 project 想解甚麼、目前走到哪裡、哪些資料仍有效、誰能作決定，以及甚麼結果才算交到下一手。
+
+Jimmy 的判斷是：onboarding pack 不取代所有文件，而是讓人安全走進 project 的第一頁。先用一個低風險 project 寫清一頁 pack，才考慮讓 AI 讀取更多 context、幫手起稿或加入 workflow。
+
+| Onboarding pack 一頁六格 | 它先解開的問題 | 留下甚麼 |
+|---|---|---|
+| Purpose／scope | 這個 project 真正要解甚麼？ | 成果與範圍 |
+| Current state／owner | 目前卡在哪裡、誰可改狀態？ | 可接手進度 |
+| Current references | 哪些資料仍可相信？ | 最小 source of truth |
+| Active decisions | 甚麼已決定、為何這樣定？ | 不用重新猜的判斷 |
+| Workflow／approval | 哪一段由誰做、誰收貨？ | 交接與 review 位 |
+| Blocker／next action | 現在可做甚麼、何時要停？ | 下一步與停線 |
+
+## 資料夾明明有齊，點解新同事仍然做錯？因為他缺少可信的第一頁
+
+叫一個新加入的人「看所有文件」看似完整，實際上把篩選責任交給最不熟悉 project 的人。他不知道哪一份是現行版本、哪個決定已被推翻、哪一段只是 brainstorming。AI 也一樣：它讀得愈多，不代表能判斷哪條規則應優先。
+
+一頁 onboarding pack 的工作，是把最少但最能改變下一步的資料放在前面。它不必記錄所有歷史，而是明確告訴下一位：現在請以甚麼為準、不要把甚麼當規則、遇到哪類問題應交回誰。
+
+Jimmy 的結論是：onboarding 的目標不是令下一位「知道得最多」，而是令他一開始就不會相信錯的東西。
+
+先為 pack 寫三句入口說明：
+
+1. **Project 現在要交的成果：** 不是背景介紹，而是眼前這一輪要完成甚麼。
+2. **可信入口：** 只列目前有效的資料、決定與 owner，不列整個歷史。
+3. **安全邊界：** 哪些材料只可 internal 使用、哪些仍待確認、哪種情況不可自行繼續。
+
+這三句成立後，資料夾裡其餘文件仍可存在，但不再要求每一位新 worker 在開始前自己考古。
+
+## Purpose 同 scope 點樣寫先唔會變成一段 project 介紹？要寫成今輪可以收貨的成果
+
+很多 project page 一開始有很長的背景：公司想做甚麼、團隊以前做過甚麼、願景是甚麼。這些可能有用，但新 worker 真正需要知道的是「我今日加入，要把哪一件工作由哪裡帶到哪裡」。如果這句不清楚，所有後續資料都很難判斷是否相關。
+
+scope 的另一個作用是說清楚今輪不做甚麼。沒有這條線，AI 很容易把資料整理、策略、寫作、發布和分析全部混在一次 task 裡；人也會因為想一次解決所有問題而令 project 不斷膨脹。
+
+Jimmy 的結論是：Purpose 不是 project 的夢想，scope 不是待辦清單；兩者合起來要讓人知道本輪工作的完成線。
+
+| 寫法 | 太闊的版本 | 可收貨的版本 |
+|---|---|---|
+| Purpose | 「改善 AI 內容」 | 「用公開材料起一份可 review 的 AI Operator 教學 outline」 |
+| Scope | 「處理所有內容」 | 「本輪只整理三個已批准主題，不做外發或 campaign 排期」 |
+| Completion | 「寫好」 | 「owner 能按固定欄位 review 一份 outline，未知已標出」 |
+
+下一位讀到這三行，便能自行判斷一份資料、建議或 draft 是否屬於眼前工作。這是 pack 最先要留下的判斷。
+
+## Current state 點樣先唔會只寫「進行中」？把狀態、owner 和下一個門檻放在一起
+
+「進行中」通常甚麼也沒有說。它不能告訴新 worker 現在等材料、等 review、已可起稿，還是其實被一個未決定問題卡住。於是人一加入就做了不應做的部分，或者不停問 owner「而家做到邊」。
+
+狀態要真正可交接，除了名字之外還要有 owner 和下一個門檻。誰可以把 `draft-ready` 改成 `owner-review`？沒有這個人，AI 的 output 即使已經產生，也沒有任何人能知道它是否可用。
+
+Jimmy 的結論是：可用 state 不是 project 管理術語；它是讓下一位不用翻 chat 也知道能否開始的簡短答案。
+
+最小狀態線可以是：
+
+```text
+brief-ready → context-ready → draft-ready → owner-review → closed
+                         ↘ blocked（缺 input／範圍未定／要 owner 決定）
+```
+
+每次更新只補三項：現在在哪一格、誰是 owner、要跨去下一格還缺甚麼。這比記錄所有聊天更新更能讓 project 真的可接手。
+
+## Current references 同 active decisions 點樣分？不要把所有連結都當成規則
+
+一份 onboarding 文件最容易變成 link dump：十幾個資料夾、舊 deck、相關 chat、外部文章都放進去。新 worker 看見連結很多，卻看不出哪一份仍然有效、哪一份只可參考、哪個決定已經取代舊做法。AI 讀到這些材料時更難自己選擇優先次序。
+
+所以 references 只負責「現在可看甚麼」，decisions 則負責「現在要怎樣做、為何」。兩者分開後，舊資料仍可保留在 archive，但不會被誤當成對這一輪有約束力的指令。
+
+Jimmy 的結論是：連結告訴下一位材料在哪裡；決定才告訴下一位應如何使用材料。
+
+| 區塊 | 應寫甚麼 | 不應寫甚麼 |
+|---|---|---|
+| Current references | 現行 brief、已批准格式、指定公開材料 | 每一份歷史草稿和聊天紀錄 |
+| Active decisions | 「用廣東話解釋」「未驗證成效不可承諾」及原因 | 沒有 owner 的個人偏好 |
+| Historical／reference only | 舊版本、靈感、已過時研究 | 假裝仍是本輪規則 |
+
+每條 active decision 最好有一位 owner 和一個可回看的理由。當決定失效時，更新 pack，而不是靠大家默認某條舊規則已經不用。
+
+## Workflow 同 approval boundary 點樣令 AI 真正幫到手？先切清它可以做哪一段
+
+把 AI 放進 project 最常見的錯誤，是一開始便問「可否讓它做晒」。若 workflow 尚未定義，它只會得到一堆資料與模糊目標，最後產出一段不知誰負責、也不知可否用的文字。人仍要在最後一刻重做，還多了一層責任不清。
+
+onboarding pack 應清楚列出 AI 或新同事的工作段落：可以讀甚麼、要交甚麼、交給誰 review、碰到甚麼要停。這不必是複雜自動化；用一段簡單手動流程已足夠讓工作角色可見。
+
+Jimmy 的結論是：AI 能否安全幫到手，不取決於它能讀多少資料，而取決於它的 input、output、review 和停線是否被寫清。
+
+一條最小 workflow 可先寫成：
+
+1. owner 確認本輪 input 已齊；
+2. AI／worker 只按指定格式起一份 internal draft；
+3. reviewer 檢查事實、未知與完成線；
+4. 有缺口便退回 `blocked` 或 `draft-ready`；
+5. 只有 owner 批准的版本才可進下一手，任何對外行動仍要人手決定。
+
+這個邊界讓新 worker 知道自己不是要替 project 作所有決定，而是要交一份清楚、可被收貨的工作。
+
+## 用 internal learning project 跑一次：一頁 pack 怎樣令新 worker 安全接手
+
+以下是 synthetic 例子。假設一個 internal learning project 要用公開材料整理一份 AI Builder 教學 outline。這不是客戶課程、也不包含報名資料或未公開 offer；它只用指定的公開文章、固定格式和 dummy 欄位，讓新 worker 可以安全練習交接。
+
+新同事或 AI 不需要讀完整歷史，只要依照 pack 的六格，就知道現在可以開始哪一段、哪些判斷不可越過、以及 output 要交回誰。
+
+| 六格 | 本輪 pack 寫法 |
+|---|---|
+| Purpose／scope | 起一份可 review outline；不做外發內容或課程承諾 |
+| State／owner | `owner-review`；teaching owner 可決定下一步 |
+| References | 指定公開來源、已批准 outline 格式 |
+| Decisions | 廣東話解釋；未驗證成效要標示，不可寫成結果 |
+| Workflow／approval | worker 起草 → owner review → closed／blocked |
+| Next／stop | owner 核對結構；來源不清或範圍改變即 `blocked` |
+
+Jimmy 的結論是：這頁 pack 的成效，不是讓人永遠不用問問題，而是讓他第一個問題已經變得準確——他知道要問哪個 owner、缺哪個 input、而不是重新問 project 是甚麼。
+
+當這個練習能順利交接，你才有證據考慮加更多 context、更多角色或更複雜工具；先不要把一頁 pack 誤當成已可全自動運行。
+
+## 第一頁 onboarding pack 應怎樣開始？選一個有人會接手的低風險 project
+
+你不需要為所有 project 補完歷史才開始。最適合的第一張 pack，是一個正在做、即將由另一位人或工具接手、而且即使出錯仍可人手收回的小工作。這樣你最容易看見哪一格真正缺資料、缺 owner 或缺完成線。
+
+先寫半頁，讓一位未讀過完整 chat 的人只靠這頁說出下一步和停線。說不出，代表不是他不夠熟，而是 pack 還未把重要判斷放到入口。每次 state 或 decision 改變，只更新這頁，不用重寫 project 全部文件。
+
+第一輪可以按這三步做：
+
+1. 選一個本星期確實有人會接手的小 project slice；
+2. 只填六格中「成果、現況、可信資料、決定、owner、下一步」的最小版本；
+3. 交給未看過歷史的人讀，記下他第一個答不出的問題，再只補那一格。
+
+Jimmy 的結論是：好 onboarding 不是資料多，而是新 worker 第一眼已經知道哪個判斷仍有效、自己可以做甚麼、何時應停。
+
+完成第一張後，可將它與 [明明每星期都做，點解仍然交唔到畀人或 AI？](./3-6-work-map-before-workflow.md) 的五格 work map 一起用：work map 看清一件工作；onboarding pack 則讓下一位安全走進整個 project。若你更常遇到換工具、換 AI 時要重講背景，可讀 [換 AI 工具就要由零開始？你需要帶得走的不是所有資料，是可信 context](./3-9-portable-context-pack.md)。
+
+---
+
+← [返回 AI Operator](../README.md) · [按問題瀏覽](../../../學習地圖.md)

@@ -1,0 +1,175 @@
+# Skill 唔係存低一段長 prompt：怎樣把重複 AI 工作寫成可重跑的品質閘？
+
+有一段 prompt 今次很好用，很多人第一反應是把它存起來、改名叫「Skill」。下次換材料、換人、資料不齊或工作情境稍有不同，結果又飄了：AI 不知道何時該用、該讀甚麼、哪一步要保留 evidence、甚麼算過關、遇到問題應否繼續。你存下的其實只是一次成功的說法，不是一條能交接的工作。
+
+存得更長不會自然令做法更穩。沒有 trigger、input boundary、artifact、quality gate 和 stop 的長 prompt，只是把不清楚的要求保存久一點。它可能在你本人還記得背景時有用，但一段時間後或交給另一個人／Agent 時，最重要的判斷仍然只留在人的腦內。
+
+Jimmy 的判斷是：Skill 是一份可重跑的工作合約，也是一道品質閘。它把一件已經相對穩定的 routine 寫清楚：甚麼時候才啟動、只可讀甚麼、按甚麼步驟交哪些中間 artifact、怎樣驗收、哪些狀況要停或交回 owner。目的不是讓 AI 做更多，而是讓它只在值得委派的範圍內把工作交得更可靠。
+
+| Skill 的一格 | 它要解的問題 | 完成後留下甚麼 |
+| --- | --- | --- |
+| Trigger | 任何任務都套同一份 prompt | 清楚知道甚麼條件下才應啟動 |
+| Reference boundary | AI 不知讀甚麼、容易看到太多資料 | 已批准 source、schema、好例子與禁止範圍 |
+| Steps + artifacts | 「仔細分析」無法交接 | 每步可打開、可檢查的輸出 |
+| Quality gate | AI 自己說完成，大家不知怎樣收貨 | pass／revise／unknown 的可見標準 |
+| Stop + owner | 例外時一路猜或擴大 action | needs input／approval／human release 路徑 |
+
+## 一段 prompt 今次有效，為甚麼仍然不代表它已經是一份 AI Skill？
+
+一次 prompt 成功，通常發生在你已經在場：你知道這次真正目標、你揀過資料、你在對話中補了很多背景、你看得出哪個 output 不像樣。這些隱藏協助令 AI 看起來「懂得做」，但下一次沒有同樣 context 時，它便不一定能重現同一品質。成功過一次只是一個好線索，不是一條成熟 workflow。
+
+Skill 要處理的是重複性和交接性。它要令另一位人或 AI 在不讀舊 chat 的情況下，仍知道這份工作何時適用、從哪裡開始、不能碰甚麼、交出甚麼、未過關怎麼辦。若這些仍要靠你每次口頭補充，工作只是被 prompt 過，還未真正被包裝成 Skill。
+
+**Jimmy 的結論：** Prompt 是一次對話的指示；Skill 是一段重複工作如何穩定交付的合約。它的價值不是字數，而是能否把原本隱藏在你腦內的觸發、邊界、完成線和停止線留下來。
+
+可用這張判斷表：
+
+| 看起來像 Skill 的東西 | 它仍然只是 prompt 的訊號 | 比較像 Skill 的訊號 |
+| --- | --- | --- |
+| 使用時機 | 「有需要就用」 | 有清楚 trigger／適用工作單位 |
+| 讀取材料 | 「看相關資料」 | 指定 approved reference 和禁止範圍 |
+| 工作步驟 | 「分析後寫好」 | 每步交 evidence、draft、review receipt 等 artifact |
+| 完成標準 | 「做得專業」 | 有可檢查 schema、source、unknown、reader scenario |
+| 出錯處理 | 「小心處理」 | needs input／revise／approval／stop 的去向 |
+
+如果右邊幾格還未寫出來，先叫它 routine note 或 working draft，繼續跑幾次收集 feedback，比強行宣布「已經有 Skill」更誠實。
+
+## AI Skill 的 trigger 要怎樣寫，才不會每個一次性任務都被硬套進去？
+
+一份 Skill 最容易失效的原因，是沒有說清何時該用。當 trigger 只是「幫我做內容」、「幫我分析資料」或「用 AI 協助」，AI 和使用者都會把不同工作混進同一條流程。結果 Skill 愈長愈充滿例外，卻沒有一個任務真的能穩定跑；人最後仍要每次重新判斷，工具反而變得更難用。
+
+好的 trigger 會描述一個已重複、邊界較穩、能交出相近 artifact 的工作情境。例如「已指定 1–3 篇公開文章，需要起一份只供 internal review 的 research brief」，而不是「研究任何 topic」。前者清楚知道何時可啟動、何時資料不足、何時出現對外需求就應停；後者把探索、策略、事實判斷和發佈全塞進同一個模糊工作。
+
+**Jimmy 的結論：** Trigger 是 Skill 的入口閘。它不只說「要做甚麼」，還要說「甚麼情況下暫時不要用」，令 AI 不會把未成熟、一次性或高風險工作錯當 routine。
+
+寫 trigger 時可答這五條：
+
+1. 這件工作是否已做過幾次，目標和 output 是否大致相近？
+2. 甚麼 input 出現時才代表可以開始？
+3. 本輪最終只交 internal draft，還是涉及外部／正本 action？
+4. 哪些問題仍需 human runbook／owner 先定義？
+5. 出現甚麼情況便不應啟動，而要改用另一個流程？
+
+例如未有原始來源、需要客戶決策、要改合約或要直接發布內容，都應讓 routine 停在 trigger 前，不要讓 Skill 勉強填空。
+
+## Skill 的 reference boundary 怎樣寫，AI 才不會因為想做好而讀太多資料？
+
+AI 要做好工作需要 context，但「給它全部資料」不是一個可靠方法。把整個 vault、舊 chat、客戶資料夾或 CRM 開放給一個 routine Skill，看似能減少它問問題，實際卻令 output 很難追溯，也擴大了敏感資料、過期資料與錯誤 context 被混入的風險。更糟的是，下一位人無法知道它到底根據哪一份材料做判斷。
+
+reference boundary 應把「可用 context」變成一個最小、可檢查的 input class：指定 URL、approved brief、固定 schema、sample、好例子，以及哪些資料絕不該讀。資料真的不足時，Skill 的品質表現不是自動找更多，而是標記 `needs input`、列出欠甚麼，等 owner 補或重新定義工作。
+
+**Jimmy 的結論：** 好 Skill 的 context 不在於最多，而在於剛好足以完成指定工作、又令任何 reviewer 知道 AI 根據甚麼、沒有看甚麼。資料邊界本身就是品質閘。
+
+Reference section 可包括：
+
+| 項目 | 要寫甚麼 |
+| --- | --- |
+| Allowed sources | 本輪只可讀的文件、URL、資料夾、欄位或 schema |
+| Good examples | 已批准、可安全參考的 output 範例，連同適用原因 |
+| Source of truth | 有衝突時以哪一個資料為準 |
+| Not allowed | 客戶、CRM、付款、合約、credentials、未公開策略、未分類資料 |
+| Data shortage rule | 缺必要材料時要交哪個 receipt、誰補、不可自行做甚麼 |
+
+如果 reference 仍需「自行找相關資料」，那不是一條可控 Skill；先用 human runbook 做選材或把 scope 收窄。
+
+## AI Skill 的 steps 為甚麼要留下中間 artifact，而不是只要求最終答案？
+
+只要求最終 output 的 Skill，很難知道錯誤從哪裡開始。若最後 briefing 有問題，究竟是 source 選錯、抽取錯、判斷錯、格式錯，還是 reviewer 根本沒看？沒有中間 artifact，所有問題都被壓成「結果不好」，下一次只能重跑整條流程或再加一個長 prompt。
+
+把工作拆成幾個可讀 state，不是為了增加文件，而是讓每一格可以獨立驗收和改進。例如先交 evidence list 和 unknown，再交 structured brief，最後才起 draft；每一格都有自己的 input 和完成線。這也讓工作可由另一位人或 Agent 接手，而不是只能依賴原本對話的記憶。
+
+**Jimmy 的結論：** Step 的價值不在編號，而在每一步留下一份可被下一步讀取、被 reviewer 檢查、出錯時可回退的 artifact。沒有 artifact 的多步 prompt，通常仍是一個黑盒。
+
+一條簡單 Skill 可以這樣設計：
+
+```text
+approved sources
+→ evidence list（來源、事實、unknown）
+→ structured brief（問題、角度、邊界、建議）
+→ draft artifact（按指定格式的初稿）
+→ review receipt（check、pass／revise／stop、下一位）
+```
+
+每一格都要說清楚：輸入從哪裡來、輸出放在哪裡、哪種錯可 `revise once`、何時要 `needs approval`。若要做的是一次小工作，不必強行拆五格；但至少要有一個人可驗收的 output 和一個錯誤去向。
+
+## Quality gate 和 stop 怎樣令 Skill 不會把「繼續做」誤當成唯一答案？
+
+AI 被賦予任務時傾向想完成它，這正是它好用也需要設計的原因。若 Skill 只寫「把事情完成」，資料不足時它可能補猜、來源衝突時它可能偷選一邊、遇到外部 action 時它可能繼續到超出責任範圍。沒有 quality gate，AI 就會用流暢 output 掩蓋它本來應該交回的問題。
+
+Quality gate 將「好不好」拆成可觀察條件；stop 則將「不能安全繼續」寫成正確結果。固定格式錯可以 revise once；缺 input 要等人補；衝突或要改 scope 要 owner approval；外發、覆寫、付款、權限或敏感資料 action 永遠先停在 human release。這令 Skill 並非愈跑愈大，而是只在獲准範圍內推進。
+
+**Jimmy 的結論：** Skill 的可靠性不在於它永遠有答案，而在於它知道何時產生 draft、何時修一次、何時誠實地停下來交給人。Stop 是品質的一部分，不是失敗。
+
+一張最小 gate／stop table：
+
+| 情況 | Gate 結果 | 正確下一步 |
+| --- | --- | --- |
+| 必填欄位、指定格式少了 | 可規則化 fail | `revise once`，交 diff／check |
+| 指定 input 缺失、原始來源找不到 | 資料不足 | `needs input`，列欠項、不補猜 |
+| 證據衝突、策略／範圍要取捨 | 判斷未決 | `needs approval`，列選項與影響 |
+| 工具中斷、狀態不可信 | 不可安全繼續 | `failed safe`，留最後可信 state |
+| 對外發送、改正本、付款／權限 | 外部責任門檻 | `human release`，只交 draft |
+
+想更深入設計例外去向，可讀 [AI 一遇資料不足就繼續猜？Skill 要先寫好 exception ladder](./4-34-skill-exception-ladder.md)。
+
+## 用「公開文章 → internal research brief」跑一次 Skill，完整 workflow 會怎樣發生？
+
+假設你每週會把指定公開文章整理成 internal research brief。這個工作適合做第一份 Skill，因為它的 input 可以限制在公開 URL、output 只是一份 draft、可以清楚寫 schema、也不需要接 CRM、客戶、付款或自動發布。它不是要代替人決定公司的策略，而是把重複整理工作交成可 review artifact。
+
+一個可用 Skill 不會一開始就把文章改成對外內容。它先確定 trigger 是否成立、原始 URL 是否可讀，接著列 evidence、分開事實／Jimmy 判斷／unknown、按固定欄位起 brief；任何沒有來源的主張都留白或標記，最終由 owner 決定是否採用、延伸、退回或停止。這讓 AI 的價值在於整理與結構，而不是把它誤當作外部作者或公司發言人。
+
+**Jimmy 的結論：** 第一份 Skill 的好結果不是自動產生很多內容，而是交出一份人打開就知道「它讀過甚麼、知道甚麼、不知道甚麼、下一步誰決定」的 internal artifact。
+
+完整 run 可以是：
+
+| 階段 | AI 做甚麼 | Owner／reviewer 看甚麼 |
+| --- | --- | --- |
+| Trigger | 確認已有指定公開 URL，目標只是 internal learning | 是否屬於此 Skill、是否需要先定策略 |
+| Reference | 只讀 URL、schema、approved example | 是否有未批准／私有資料混入 |
+| Evidence | 列原始位置、可支持觀察、unknown | 每個事實是否可追溯 |
+| Brief | 將觀察整理為問題、角度、邊界 | 判斷是否值得採用／延伸 |
+| Gate／stop | 缺來源、衝突或外部需求時標狀態 | 決定補 input、approval、stop／release |
+
+完成後留下的是 evidence、brief、review receipt，不是一個被誤當成已發布的「最終答案」。
+
+## 幾時值得把一件 AI 工作寫成 Skill，幾時應先保留為 prompt 或 human runbook？
+
+不是每段有效 prompt 都值得立刻固化。剛開始探索、每次目標不同、還未知道 input／output、或一做就要很多例外的工作，先保留為對話或 human runbook 更好。過早寫死做法，可能把一個未成熟流程變成看似正式、實際沒有人敢改的舊規則。
+
+較適合 Skill 的，是你已跑過幾次、工作形狀開始穩定、最常見錯誤看得出來、可以寫幾條 acceptance、也有人願意當 reviewer／owner 的 routine。這不表示它以後不能更新；反而因為有 receipt 和 feedback，你更容易知道規則何時該修、何時該 retire。
+
+**Jimmy 的結論：** 寫成 Skill 不是把最佳 prompt 收藏起來，而是承諾替一段重複工作維護它的邊界、品質和例外。沒有 owner 的過期 Skill，往往比沒有 Skill 更危險。
+
+可用這個時機表：
+
+| 工作狀態 | 較適合做甚麼 |
+| --- | --- |
+| 第一次探索、目標仍在變 | 用 prompt／對話，記錄問題與 feedback |
+| 做過兩三次、看到相似步驟和錯誤 | 寫 routine note、初步 schema／check |
+| Input、output、review 已較穩定 | 建 Skill contract，先只交 draft |
+| 多次已過 gate、例外有 owner、維護有人負責 | 考慮受控 automation／更大範圍 |
+
+若工作仍需要人的語境判斷，保留 [human runbook](./4-37-human-runbook-or-ai-skill.md) 並讓 AI 做其中一小段，不需要二選一。
+
+## 想寫第一份 AI Skill，最安全的半頁開始是甚麼？
+
+第一份 Skill 不必很長，也不需要把最重要的 business workflow 拿來試。選一件已重複、低風險、能只交 draft 的 routine，例如公開資料整理、sample 文件格式檢查、固定欄位的 internal outline。你要追求的是每次能看見 input、artifact 和 gate，而不是一開始就全自動或對外發佈。
+
+半頁版本已足夠：何時用、讀甚麼、做哪幾步、交甚麼、怎樣收貨、何時停。用 sample 或公開安全 input 跑三次，再從真正遇到的錯增加 check 或 exception。這比寫一大堆泛泛「最佳實踐」更容易讓 Skill 成為可用資產。
+
+**Jimmy 的結論：** 第一份 Skill 的成功，是它把一段原本要靠你反覆叮囑的 routine，變成有清楚開始、可見中間物、可驗收結尾和可安全停止的工作合約。
+
+可以直接填這張半頁卡：
+
+```text
+Trigger：甚麼條件下才用這份 Skill？
+Allowed reference：只可讀甚麼？不可讀甚麼？
+Steps + artifacts：每一步交甚麼可打開 output？
+Quality gate：出現哪三種情況便不算完成？
+Stop／owner：資料不足、衝突、外部 action 時由誰決定？
+Receipt：本輪如何留下 input、check、決定和下一步？
+```
+
+暫時不要把每個一次性 prompt 都存成 Skill；不要為了 AI 能多讀而把 private vault、客戶、CRM、合約、付款或 credentials 接進去；亦不要將 draft 當成已發布／已交付。若你想先用 quality gate 定義收貨線，可讀 [AI 做到一次唔等於可以交付](./4-2-quality-gates.md)；要把成功 demo 補成完整工作合約，可讀 [Skill 其實是一份工作合約](./4-23-skill-is-a-work-contract.md)。
+
+← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../學習地圖.md)

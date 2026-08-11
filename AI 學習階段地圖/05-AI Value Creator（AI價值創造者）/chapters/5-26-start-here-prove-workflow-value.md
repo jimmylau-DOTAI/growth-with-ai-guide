@@ -1,0 +1,148 @@
+# AI 有冇創造價值？先跑一條可以證明的工作，不要急著講 ROI
+
+當你已經用 AI 做順一兩件工作，下一個問題會變成：這些到底是不是有價值？帶團隊、教學生、做產品或服務時，最容易回答成「我們用咗很多工具」「出了很多內容」「做了一個很靚 demo」。這些事情可能都是真的，但仍未說明哪一條工作真的交得更好。
+
+工具名和 output 數量不能代替 evidence。一個 demo 可以證明模型有某種能力；一個 pilot 可以在有限範圍測試 workflow；但要判斷值不值得擴大，還要有 owner、review、比較與誠實邊界。若沒有這些，很容易把一次順利 output 說成轉型成果，或者第一次遇到例外就誤判 AI 完全沒有用。
+
+Jimmy 的看法是：AI Value Creator 不靠神話 ROI；先選一條真 workflow，設一個有 owner、可 review、可比較的 pilot，再決定應該擴大、修正還是停止。價值不是 AI 看起來多厲害，而是一條工作是否更清楚、更快、更準或更安全，而且有人能回看證明。
+
+AI value · ROI · AI pilot · workflow outcome · human review · measurement · adoption · scale decision
+
+| 證明 AI 價值的一格 | 要回答甚麼 | 留下甚麼 |
+|---|---|---|
+| 真痛點 | 原本哪一手反覆、慢、漏或有風險？ | baseline／workflow pain |
+| Bounded scope | AI 今次只參與哪一手？ | pilot boundary |
+| Owner／review | 誰收貨、誰處理例外？ | acceptance／stop line |
+| Artifact | 最後有甚麼可核對交付？ | draft、card、receipt |
+| 比較 | 這次想觀察甚麼改變？ | outcome measure |
+| Decision | 何時 retain、revise、stop 或 scale？ | next-step evidence |
+
+## AI value 點解不能只看工具和 output：忙得更快不等於工作更好
+
+AI 可以令團隊很快產生更多內容、報告、草稿和分析，但若沒有人需要這些 output、沒有人能判斷品質、或所有人仍要花大量時間 rework，速度只是在增加工作量。真正的問題是 output 有沒有幫一個人更好地完成決定、交接或下一步，而不只是模型每分鐘能做多少。
+
+同樣地，看到一個很好的 demo 也不等於已有價值。demo 通常在清楚材料、講者可即時補救的情況下完成；真工作會有資料不足、例外、不同 owner、不同風險。把工具使用量直接等同 ROI，會把最需要學習的部分藏起來。
+
+**Jimmy 的結論：** AI value 不由工具名或 output 數量決定，而由一段真 workflow 是否留下較少重做、較清楚交付或較安全決定的 evidence 決定。
+
+| 看起來很忙 | 仍未證明甚麼 | 要回到哪一格 |
+|---|---|---|
+| 出很多 AI 內容 | 是否幫到任何工作決定 | audience／artifact purpose |
+| 有很多 account | 是否有 adoption | repeat use／safe outcome |
+| Demo 很漂亮 | 是否適合不同 input | pilot／review |
+| Agent 跑很多 task | 是否造成更多 cleanup | owner／exception |
+| 宣稱提升效率 | 哪一手真的少了 | baseline／outcome receipt |
+
+若你未能說明 output 最後幫誰作甚麼決定，先不要把它叫 value。先把工作目的和可收貨 artifact 寫清，才容易看到 AI 是否真有幫助。
+
+## Demo、pilot 和 value proof 有咩分別：不要把一次成功當成成果承諾
+
+Demo 證明某個工具或模型可以做出某類 output；它很適合探索可能性。Pilot 則把這個可能性放進有限範圍的真工作，加入 input boundary、owner、review 和 stop line，目的是找出是否可用。Value proof 再進一步：它有可比較的 evidence，讓你判斷這條 workflow 值不值得繼續、修正或擴大。
+
+三者沒有高低，適合不同問題。危險只在於把它們混在一起：用 demo 向客戶承諾成效、用一次 pilot 宣稱全公司 ready、或以沒有 owner 的 output 當 proof。分清階段，反而讓每一輪試行更誠實、更容易獲得信任。
+
+**Jimmy 的結論：** Demo 是探索，pilot 是受控學習，proof 是有 evidence 的決定。先知道自己在哪一層，才不會過早承諾 ROI 或過早放棄。
+
+| 你看到的是 | 它真正證明 | 它尚未證明 |
+|---|---|---|
+| Demo | AI 有某種 capability | 適合真 workflow／可安全交付 |
+| Pilot | 在有限 scope 可跑一次或幾次 | 可擴到所有人／固定 ROI |
+| Value proof | 有 owner、review、comparison 的變化 | 一定帶來收入或長期回報 |
+| Scale | 在更多情況仍可管理 | 不再需要治理與維護 |
+
+如果你目前只有 demo，下一步不是補一段行銷數字，而是定一條 bounded workflow。若已有 pilot 但未有比較，先留一份 receipt，讓下一輪不只靠感覺。
+
+## AI pilot 怎樣選真工作：先找重複摩擦，不要由「想試 AI」開始
+
+最值得先試的工作通常有三個訊號：它反覆出現、已有相對清楚的 input 和完成線、做錯時可以在人造成傷害前被發現。這可能是整理已批准資料、起 internal draft、標記缺漏、固定格式 briefing，或一段需由 owner review 的 handoff。它不必最炫，但應真正浪費人的注意力。
+
+不要由「我們想試 Agent」開始，因為這樣很容易把範圍拉得太大。由「每週哪一手最常重做、最容易漏、最難交接」開始，然後只讓 AI 先處理其中一小段。範圍愈清楚，越容易看出問題源自 input、規則、工具、review 還是 workflow 本身。
+
+**Jimmy 的結論：** 第一個 pilot 的價值在於減少未知，不在於展示最完整自動化。選一條重複、低風險、可 review 的真工作，才有機會留下可信 evidence。
+
+| 值得先試的訊號 | 為何有價值 | 安全第一步 |
+|---|---|---|
+| 每週重複整理資料 | 重做成本清楚 | approved source → internal draft |
+| 固定格式常漏欄 | 有可寫成 rule 的部分 | template 加 missing-field check |
+| 交接常等人 | owner 與 artifact 可明確化 | handoff card／review queue |
+| output 要人核對 | 可設 acceptance line | draft-only workflow |
+| 例外可被及時發現 | 風險能受控 | unknown → human escalation |
+
+若工作涉及敏感資料、高風險決定或不可逆 action，先不要用作第一個 pilot。先從整理、草稿和 review 層累積方法，再決定是否值得擴大。
+
+## AI value 怎樣量度才不誇大：比較一個工作變化，不預先保證 ROI
+
+早期 pilot 不一定能可靠地算出收入或節省了多少錢，因為結果可能受資料品質、使用者習慣、流程改動和時間影響。若一開始就承諾固定 ROI，團隊會被錯誤期待綁住，也會忽略實際上最重要的學習：AI 是令哪一手變清楚，還是只把新工作推給別人。
+
+較誠實的做法是挑一兩個足夠用的觀察點，例如資料齊備到可 review 的時間、漏欄率、退回補資料次數、某個 artifact 是否被 owner 接受、或使用者會否第二次自發使用。它們不是最終商業答案，但能讓你把「好像有用」變成可以回看的 evidence。
+
+**Jimmy 的結論：** AI value 的第一輪量度，不是找一個漂亮大數字；是用一個與 workflow 有關的比較，判斷這條工作是否更可用、可控和可改善。
+
+| 很想量甚麼 | 為何可能太早 | 較誠實的第一輪觀察 |
+|---|---|---|
+| 「省了 X 小時」 | baseline、例外和 review 未穩 | 資料齊備到可 review 的時間 |
+| 「提升 X% 收入」 | 商業結果受多因素影響 | artifact 是否支持下一個決定 |
+| 「全自動化」 | owner、權限、例外未解 | 人工 rework 有否下降 |
+| 「所有人採用」 | access 不等於 repeat use | 第二、三次是否自發使用 |
+| 「模型準確率」 | 未必對應工作結果 | owner accepted／returned reasons |
+
+量度不應成為收集不必要員工或客戶資料的理由。只記對當前 workflow decision 必要的 evidence，並清楚說明這些數字還不能代表甚麼。
+
+## AI pilot 裡 human review 為何不可少：有人收貨，價值才落到真工作
+
+AI 可以幫忙整理、起草、分類或提出選項，但它不應自行把未知補成結論、替人作敏感決定或直接外發。human review 的作用不是把所有工作再做一次，而是由明確 owner 核對關鍵內容、接受或退回 artifact、處理例外，令工作責任仍然清楚。
+
+沒有 owner 的 pilot 很難證明價值。即使 output 看起來好，也不知道是否真的可用；即使出現錯誤，也不知道誰應決定停止或修正。把 review 放進設計，能讓團隊看見 AI 有沒有減少不值得的人手重做，而不是把人變成最後 cleanup team。
+
+**Jimmy 的結論：** AI 的價值需要有人收貨才能落地。owner、acceptance 和 stop line 不會減少創新；它們讓 pilot 可以安全地比較與學習。
+
+| 關口 | AI 可以做 | 人必須做 |
+|---|---|---|
+| Input | 讀已批准材料 | 決定資料是否可用 |
+| Draft | 整理、分類、起草 | 判斷意思與優先次序 |
+| Unknown | 標記缺漏與衝突 | 補資料或決定停 |
+| Review | 提示 checklist 項目 | 接受、退回、升級 |
+| Action | 準備下一步建議 | 批准外發、寫入、不可逆決定 |
+
+如果你還未能指明誰 review，先將 AI 停在更低風險的整理層。不要用「之後有人會看」作為提高 action scope 的理由。
+
+## 一個公開安全例子：活動資料 briefing pilot 點樣留下 value proof
+
+假設團隊每次活動後，要把已批准公開活動資料整理成 internal follow-up briefing。原本要由人從不同來源找資料、重整欄位、再追問缺漏；第一輪 pilot 只讓 AI 根據 approved materials 起固定格式 draft 和標 unknown。content owner 對照資料 review，CRM、payment、未公開 offer 和對外發送都不進第一輪。
+
+每次 run 留一張 receipt：資料何時齊、draft 何時可 review、哪些欄位被退回、unknown 是否有被正確交回 owner。跑三次後，團隊不需要說「AI 一定省幾多錢」，也可以看出這條 workflow 是否少了重做、owner 是否願意再用、下一輪應改 template、input 還是停止。
+
+**Jimmy 的結論：** 這個 pilot 的 proof 不是一張漂亮 briefing，而是一段有 owner、有 review、有比較的工作 evidence。它讓團隊安全地決定值不值得繼續。
+
+| Pilot 格 | 例子設定 | 不作甚麼承諾 |
+|---|---|---|
+| Pain | 資料整理與補漏重做 | 不假裝全流程已自動化 |
+| Scope | public data → internal draft | 不接私人／production data |
+| Owner | content owner review | 不讓 AI 自行批准 |
+| Measure | review time、漏欄、rework | 不預先承諾 ROI |
+| Decision | retain、revise、stop、limited scale | 不一開始擴至全公司 |
+
+這是 synthetic 教學情境，不代表任何特定活動、客戶或 DotAI project 已有相同成果。它示範的是如何讓一條 AI 工作有足夠 evidence 被誠實地判斷。
+
+## 今日怎樣開始證明一條 workflow 的價值：寫一張最小 value proof card
+
+選一條你已經做過或準備試的真工作，先寫六格：原本摩擦、AI 只做哪一手、approved input、artifact、review owner、以及本輪想觀察哪一個變化。最後加一條 decision rule：出現甚麼 evidence 時保留、修正、停止或再跑一次。這張 card 比一份大 ROI 簡報更能令團隊開始有共同語言。
+
+若你還未有 owner、材料邊界或完成線，代表 workflow 尚未準備好作 value pilot。先回到 AI Builder 把工作切小、補 review，再來量度。不要因為想很快證明價值而跳過安全設計；沒有邊界的數字，只會令下一輪更難相信。
+
+**Jimmy 的結論：** AI Value Creator 的第一個交付，不是 ROI 承諾，而是一張能讓人看清痛點、範圍、責任、比較和下一步的 value proof card。
+
+| Value proof card | 今天先寫甚麼 | 完成後可決定甚麼 |
+|---|---|---|
+| Pain | 哪一手反覆、慢、漏？ | 是否值得試 |
+| Scope | AI 只處理哪一手？ | 風險可否受控 |
+| Artifact | 交甚麼可 review 東西？ | 甚麼叫完成 |
+| Owner | 誰接受、退回、叫停？ | 責任是否清楚 |
+| Measure | 本輪看哪一個變化？ | 有沒有 learning evidence |
+| Decision | retain／revise／stop／scale？ | 下一步投資在哪裡 |
+
+想先設計第一個受控試行，讀 [設計一個真的學到東西的 adoption pilot](./5-6-design-adoption-pilot.md)；想把 proof card 寫成可用 template，讀 [寫一張不誇大的 value proof card](./練習-write-an-ai-value-proof-card.md)。
+
+> AI 的價值不在於它看起來多厲害，而在於一條真工作能否更清楚、更快、更準或更安全，並且有人能驗證。
+
+← [返回 AI Value Creator](../README.md) · [按問題瀏覽](../../../學習地圖.md)
