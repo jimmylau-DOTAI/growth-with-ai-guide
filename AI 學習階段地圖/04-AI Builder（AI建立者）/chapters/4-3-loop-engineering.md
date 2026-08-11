@@ -170,4 +170,4 @@ Loop 不等於 fully autonomous。讓 AI 多跑幾步，不代表它可以自行
 
 暫時不要將 loop 接 CRM、付款、客戶資料、外發或不可逆部署；不要把多跑幾次當作已經學習；也不要把一致性誤當成正確性。若要先設計一個有邊界的 Agent 工作單位，可讀 [先跑一條可停的 Agent loop](./4-25-first-agent-loop.md)；若要把已知錯收進固定檢查，可讀 [AI 做到一次唔等於可以交付：Skill 點樣用 quality gates](./4-2-quality-gates.md)。
 
-← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../README.md)

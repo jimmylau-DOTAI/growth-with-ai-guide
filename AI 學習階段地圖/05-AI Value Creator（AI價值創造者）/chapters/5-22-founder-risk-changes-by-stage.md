@@ -145,4 +145,4 @@ scale 不一定代表技術更複雜，它代表責任必須更清楚。每加�
 
 > AI founder 的工作不是永遠追最快技術，而是在每個階段先找出最可能令價值斷掉的一格。
 
-← [返回 AI Value Creator](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Value Creator](../README.md) · [按問題瀏覽](../../../README.md)

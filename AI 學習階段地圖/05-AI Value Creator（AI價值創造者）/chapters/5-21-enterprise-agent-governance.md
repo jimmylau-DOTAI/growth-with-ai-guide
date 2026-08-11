@@ -149,4 +149,4 @@ run receipt 不必很複雜。第一輪可以只記六格：work purpose、appro
 
 > 企業 Agent 的價值，不是少了幾個人手點擊；而是它在清楚權限、可見 state 和人手負責下，穩定完成一段可驗收工作。
 
-← [返回 AI Value Creator](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Value Creator](../README.md) · [按問題瀏覽](../../../README.md)

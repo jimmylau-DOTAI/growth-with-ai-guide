@@ -166,4 +166,4 @@ dashboard 只會展示狀態；它無法替一張卡補回 input、artifact、ow
 
 > AI workforce 的第一個證明不是一個大腦，而是一張有人看得懂、做錯會停、交付可檢查的工作卡。
 
-← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../README.md)

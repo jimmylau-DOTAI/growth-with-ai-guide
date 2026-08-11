@@ -149,4 +149,4 @@ Stage 的作用是幫教學者判斷下一步：AI User 先完成一件有 conte
 
 > AI education 的成果不是人人有一條 prompt；是每個人多了一個能在真工作裏作判斷、留下證據和安全前進的反射。
 
-← [返回 AI Value Creator](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Value Creator](../README.md) · [按問題瀏覽](../../../README.md)

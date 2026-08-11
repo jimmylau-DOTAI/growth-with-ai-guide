@@ -153,4 +153,4 @@ Skill 需要把最後結果定義成有結構的 artifact，連同完成線。�
 
 暫時不要因為一次示範成功就叫它 autonomous；不要把 demo 畫面當成可讀工作狀態；也不要因為錄過一次便開放私人 chat、CRM、合約、付款、credentials 或 production setting。若你要把這份候選寫成正式工作合約，可讀 [Skill 唔係存低一段長 prompt](./4-6-skill-is-quality-gate.md)；若你仍未知道哪段工作應保留人手，讀 [唔係每條 SOP 都應該變成 AI Skill](./4-37-human-runbook-or-ai-skill.md)。
 
-← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../README.md)

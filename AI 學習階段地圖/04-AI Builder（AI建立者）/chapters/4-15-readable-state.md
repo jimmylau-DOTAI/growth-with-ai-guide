@@ -142,4 +142,4 @@ diff 是把「這輪改了甚麼」展示出來；verification 是把「這輪�
 
 > AI 真正接得走的，不是任何創作；而是已被外化成可讀 state、可留痕修改、可驗收交付的那一段工作。
 
-← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../README.md)

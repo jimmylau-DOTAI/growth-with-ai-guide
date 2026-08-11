@@ -123,6 +123,6 @@ AI 可以令產量突然增加，這本身不是壞事。問題在於產量容�
 4. 選一個最值得補的問題，寫成由 owner 批准的 content brief。
 5. 發出或教學後，將新追問回填問題卡，再決定是否需要新文章。
 
-暫時不要把私訊、CRM、客戶 meeting、未公開策略或自動發佈權限交給內容 Agent；也不要將一張題目表稱為「內容系統」。想把方向卡變成可交接的內容流程，可接著讀 [AI 寫內容，不等於你有內容系統](<../../03-AI Operator（AI工作操作者）/chapters/3-14-content-system-not-ai-writing.md>)；想先讓 AI 在受控範圍處理正在發生的資料，可讀 [先讓 AI 接到正在發生的資料](<../../03-AI Operator（AI工作操作者）/chapters/3-13-live-data-before-ai-content.md>)。
+暫時不要把私訊、CRM、客戶 meeting、未公開策略或自動發佈權限交給內容 Agent；也不要將一張題目表稱為「內容系統」。想把方向卡變成可交接的內容流程，可接著讀 [AI 寫內容，不等於你有內容系統](<../../03-AI Operator（AI工作操作者）/chapters/3-14-人工智能寫內容不等於有內容系統.md>)；想先讓 AI 在受控範圍處理正在發生的資料，可讀 [先讓 AI 接到正在發生的資料](<../../03-AI Operator（AI工作操作者）/chapters/3-13-人工智能做內容前，先接上正在發生的資料.md>)。
 
-← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../README.md)

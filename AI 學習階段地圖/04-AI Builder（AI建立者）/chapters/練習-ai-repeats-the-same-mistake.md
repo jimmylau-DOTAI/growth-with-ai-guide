@@ -141,4 +141,4 @@ AI 反覆犯錯 · prompt · context window · AI memory · AI reliability · va
 
 > AI 出錯不一定代表它不懂；先分清這是一個需要更多 judgment 的問題，還是一個本來就應由 workflow check 擋住的問題。
 
-← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../README.md)

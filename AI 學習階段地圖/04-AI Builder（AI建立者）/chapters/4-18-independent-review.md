@@ -144,4 +144,4 @@ reviewer 核對每個 claim 是否真的能回到原文、未知有沒有標示�
 
 > 好的 review 不是多一個 AI 說「可以」；而是有人能回到同一份 evidence，指出這份結果在哪裡真的過關、哪裡仍然未知。
 
-← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../README.md)

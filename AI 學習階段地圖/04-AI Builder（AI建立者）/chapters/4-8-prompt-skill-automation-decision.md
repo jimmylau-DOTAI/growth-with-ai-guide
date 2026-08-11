@@ -169,4 +169,4 @@ Connector 的價值是把兩個已講清楚責任的系統接起來，減少人�
 
 暫時不要因為「可以叫 AI 做」就把每一步變 Agent；不要把 connector 當作 permission pass；也不要在 input、owner、acceptance 未清時硬砌 automation。若要先把工作切成可驗收單位，可讀 [先寫一張可驗收 AI work card](./4-20-ai-work-card.md)；若你已經選擇 Skill 形式，讀 [Skill 唔係存低一段長 prompt](./4-6-skill-is-quality-gate.md)。
 
-← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../README.md)

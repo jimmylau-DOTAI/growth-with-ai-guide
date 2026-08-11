@@ -166,4 +166,4 @@ contract 可以指出 brief-outline.md 是唯一可修改 state；可讀材料�
 
 > 你不是把一個願望交給 AI；你是在設計一個它可以安全完成、亦可以被人檢查的工作場。
 
-← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../README.md)

@@ -147,4 +147,4 @@ AI project 很容易令人很快把一次順利 run，講成「已經有效」�
 
 > AI 能力的 proof，不是截圖一個漂亮 output；是讓人看見你如何把一件工作由混亂帶到可驗收。
 
-← [返回 AI Value Creator](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Value Creator](../README.md) · [按問題瀏覽](../../../README.md)

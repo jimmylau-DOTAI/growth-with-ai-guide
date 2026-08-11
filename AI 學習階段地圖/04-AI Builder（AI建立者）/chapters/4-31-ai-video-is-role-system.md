@@ -143,6 +143,6 @@ Storyboard 的作用是把抽象判斷變成可被挑錯的結構。當你在生
 4. 依次做訊息、事實、品牌和技術 review，記下修改原因。
 5. 保留 edit state 和 review receipt，才決定是否做渠道版本或擴大流程。
 
-暫時不要將客戶素材、未公開策略、私訊、CRM 資料或自動發佈權限交給影片 Agent；也不要因為一條 demo 順利，就聲稱已建立 autonomous video system。想把創作 workflow 留下可檢查 state，讀：[創作工作仍需要 grammar](<../../03-AI Operator（AI工作操作者）/chapters/3-16-creative-work-needs-grammar.md>)。想看 Agent 如何交出可驗收 artifact，讀：[答案不等於一份工作](./4-22-answer-is-not-work.md)。
+暫時不要將客戶素材、未公開策略、私訊、CRM 資料或自動發佈權限交給影片 Agent；也不要因為一條 demo 順利，就聲稱已建立 autonomous video system。想把創作 workflow 留下可檢查 state，讀：[創作工作仍需要 grammar](<../../03-AI Operator（AI工作操作者）/chapters/3-16-人工智能做影片與設計，先建立檢查語言.md>)。想看 Agent 如何交出可驗收 artifact，讀：[答案不等於一份工作](./4-22-answer-is-not-work.md)。
 
-← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../README.md)

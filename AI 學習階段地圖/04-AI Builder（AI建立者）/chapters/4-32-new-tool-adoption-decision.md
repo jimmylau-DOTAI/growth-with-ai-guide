@@ -126,4 +126,4 @@ Fallback 不是要你拒絕任何工具，而是避免 workflow 因一個供應�
 
 暫時不要把新工具等同於 autonomous system，也不要因一場漂亮 demo 就授予客戶資料、發佈或付款權限。想看多步工作如何保留例外和停止線，可接著讀 [自動化是一條有例外的 pipeline](./4-28-automation-is-a-pipeline.md) 和 [connector 不等於工作系統](./4-27-connector-is-not-an-agent-system.md)。
 
-← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../README.md)

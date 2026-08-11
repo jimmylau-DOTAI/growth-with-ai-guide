@@ -146,4 +146,4 @@ AI visibility · personal brand · AI portfolio · content strategy · evidence 
 
 > 被看見只是開始；可見度真正的價值，是令正確的人有足夠證據作出下一個信任決定。
 
-← [返回 AI Value Creator](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Value Creator](../README.md) · [按問題瀏覽](../../../README.md)

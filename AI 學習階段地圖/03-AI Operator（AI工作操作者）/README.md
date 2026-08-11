@@ -8,7 +8,7 @@
 
 ## 先由這篇開始
 
-[工作明明你最熟，點解仍然交唔出去？先把工作從腦裡攤開](chapters/3-18-start-here-make-work-handoffable.md)
+[工作明明你最熟，點解仍然交唔出去？先把工作從腦裡攤開](chapters/3-18-工作最熟仍交不出去，先把它攤開.md)
 
 不用先讀完這一關所有文章。先用一篇最貼近現況的攻略做一次，再回來補你真正需要的部份。
 
@@ -18,31 +18,31 @@
 
 ## 本關全部攻略與練習
 
-- 📘 攻略：[SOP 唔止係步驟：點樣將一件重複工作寫成可交接的標準](chapters/3-1-sop-trust.md)
-- 📘 攻略：[一條 routine 跑完，下一步改甚麼？不要大改，先找一格真正的摩擦](chapters/3-10-routine-review.md)
-- 📘 攻略：[換 AI 工具前，先測你帶得走幾多：一個安全的 replacement test](chapters/3-11-tool-replacement-test.md)
-- 📘 攻略：[新 AI 一入 project 就要翻晒 chat？你需要的是 current-state note](chapters/3-12-current-state-not-chat-history.md)
-- 📘 攻略：[AI 幫你做內容前，先讓它接到正在發生的資料](chapters/3-13-live-data-before-ai-content.md)
-- 📘 攻略：[AI 寫內容，不等於你有內容系統：點樣令每次起稿幫到下一次？](chapters/3-14-content-system-not-ai-writing.md)
-- 📘 攻略：[SEO 不是叫 AI 從零寫文：先找你最接近回答得更好的問題](chapters/3-15-seo-starts-with-near-win.md)
-- 📘 攻略：[AI 做影片和設計，點解出得快仍然唔好睇？創作工作要有可講清的 review grammar](chapters/3-16-creative-work-needs-grammar.md)
-- 📘 攻略：[有靈感不等於有 campaign：點樣把內容變成可接手的 AI 工作流程](chapters/3-17-campaign-content-workflow.md)
-- 📘 攻略：[工作明明你最熟，點解仍然交唔出去？先把工作從腦裡攤開](chapters/3-18-start-here-make-work-handoffable.md)
-- 📘 攻略：[換 AI 工具就要由零開始？工具可以租，工作 context 要自己掌握](chapters/3-2-own-context-rent-tools.md)
-- 📘 攻略：[AI 每次都要重講背景？問題多數不是記性，而是 context 放錯層](chapters/3-3-context-routing.md)
-- 📘 攻略：[AI 做得愈多，人應該做乜？專業判斷在 workflow 的控制層](chapters/3-4-control-layer.md)
-- 📘 攻略：[點解一人公司愈用 AI 愈攰？真正樽頸常常是每次都要重新記起怎樣做](chapters/3-5-memory-cost.md)
-- 📘 攻略：[明明每星期都做，點解仍然交唔到畀人或 AI？先畫 work map，後講 workflow](chapters/3-6-work-map-before-workflow.md)
-- 📘 攻略：[做過一次就急住寫 SOP？第三次先把做法固定，通常更穩](chapters/3-7-third-time-minimum-sop.md)
-- 📘 攻略：[新同事或新 AI 一入 project 就迷路？用一頁 onboarding pack 代替「自己睇晒啲文件」](chapters/3-8-project-onboarding-pack.md)
-- 📘 攻略：[換 AI 工具就要由零開始？你需要帶得走的不是所有資料，是可信 context](chapters/3-9-portable-context-pack.md)
-- ✍️ 練習：[為甚麼每次開新對話都要重講背景？不是 AI 記性差，是分類問題](chapters/練習-ai-memory-four-layers.md)
-- ✍️ 練習：[收藏一堆爆款仍然唔識選題？你存的是單條，選題需要的是比較與判斷](chapters/練習-pick-topics-from-competitor-signals.md)
-- ✍️ 練習：[每星期 20 分鐘，點樣令 AI context 不會愈儲愈舊？用 retain、update、retire 做小型 review](chapters/練習-weekly-context-review.md)
-- ✍️ 練習：[同一件事隔幾個月又要重新摸索？用第一份 minimum SOP 留住工作標準](chapters/練習-write-your-first-sop.md)
+- 📘 攻略：[SOP 唔止係步驟：點樣將一件重複工作寫成可交接的標準](chapters/3-1-把重複工作寫成可交接的標準.md)
+- 📘 攻略：[一條 routine 跑完，下一步改甚麼？不要大改，先找一格真正的摩擦](chapters/3-10-一條流程跑完，下一步怎樣改.md)
+- 📘 攻略：[換 AI 工具前，先測你帶得走幾多：一個安全的 replacement test](chapters/3-11-換人工智能工具前，做一次安全替換測試.md)
+- 📘 攻略：[新 AI 一入 project 就要翻晒 chat？你需要的是 current-state note](chapters/3-12-新人工智能入專案，不必翻聊天記錄.md)
+- 📘 攻略：[AI 幫你做內容前，先讓它接到正在發生的資料](chapters/3-13-人工智能做內容前，先接上正在發生的資料.md)
+- 📘 攻略：[AI 寫內容，不等於你有內容系統：點樣令每次起稿幫到下一次？](chapters/3-14-人工智能寫內容不等於有內容系統.md)
+- 📘 攻略：[SEO 不是叫 AI 從零寫文：先找你最接近回答得更好的問題](chapters/3-15-搜尋優化不是從零寫文，先找接近的問題.md)
+- 📘 攻略：[AI 做影片和設計，點解出得快仍然唔好睇？創作工作要有可講清的 review grammar](chapters/3-16-人工智能做影片與設計，先建立檢查語言.md)
+- 📘 攻略：[有靈感不等於有 campaign：點樣把內容變成可接手的 AI 工作流程](chapters/3-17-有靈感不等於有宣傳活動，內容也要能交接.md)
+- 📘 攻略：[工作明明你最熟，點解仍然交唔出去？先把工作從腦裡攤開](chapters/3-18-工作最熟仍交不出去，先把它攤開.md)
+- 📘 攻略：[換 AI 工具就要由零開始？工具可以租，工作 context 要自己掌握](chapters/3-2-工具可以換，工作脈絡要自己掌握.md)
+- 📘 攻略：[AI 每次都要重講背景？問題多數不是記性，而是 context 放錯層](chapters/3-3-每次要重講背景，問題是脈絡放錯層.md)
+- 📘 攻略：[AI 做得愈多，人應該做乜？專業判斷在 workflow 的控制層](chapters/3-4-自動化愈多，人更要守住判斷層.md)
+- 📘 攻略：[點解一人公司愈用 AI 愈攰？真正樽頸常常是每次都要重新記起怎樣做](chapters/3-5-一人公司愈用人工智能愈攰的真正原因.md)
+- 📘 攻略：[明明每星期都做，點解仍然交唔到畀人或 AI？先畫 work map，後講 workflow](chapters/3-6-重複工作交不出去，先畫工作地圖.md)
+- 📘 攻略：[做過一次就急住寫 SOP？第三次先把做法固定，通常更穩](chapters/3-7-第三次再寫標準作業程序，做法通常更穩.md)
+- 📘 攻略：[新同事或新 AI 一入 project 就迷路？用一頁 onboarding pack 代替「自己睇晒啲文件」](chapters/3-8-新同事或人工智能入專案，用一頁交接包開始.md)
+- 📘 攻略：[換 AI 工具就要由零開始？你需要帶得走的不是所有資料，是可信 context](chapters/3-9-換工具不必從零開始，帶走可信脈絡.md)
+- ✍️ 練習：[為甚麼每次開新對話都要重講背景？不是 AI 記性差，是分類問題](chapters/練習-人工智能記憶的四個層次.md)
+- ✍️ 練習：[收藏一堆爆款仍然唔識選題？你存的是單條，選題需要的是比較與判斷](chapters/練習-用競品訊號選題.md)
+- ✍️ 練習：[每星期 20 分鐘，點樣令 AI context 不會愈儲愈舊？用 retain、update、retire 做小型 review](chapters/練習-每週檢查人工智能脈絡.md)
+- ✍️ 練習：[同一件事隔幾個月又要重新摸索？用第一份 minimum SOP 留住工作標準](chapters/練習-寫第一份最小可用標準作業程序.md)
 
 ## 何時值得進入下一關？
 
 當你已留下「一張 work map、minimum SOP、現況記錄和可交接的 context。」而且知道它在哪些情況不適用，就可進入 [AI Builder（AI建立者）：親手建立可靠 AI 工作系統](<../04-AI Builder（AI建立者）/README.md>)。這不是考牌；如果工作仍然卡在這一關，留在這裡多試一次反而更好。
 
-[← 回到學習地圖](../../學習地圖.md)
+[← 回到學習地圖](../../README.md)

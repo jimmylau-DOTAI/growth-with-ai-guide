@@ -158,4 +158,4 @@ workflow 已經清楚，但使用者可能仍不知怎樣給 context、怎樣選
 
 > AI 用唔到不是結論；先找出它最早壞在哪一格，才知道下一步值得修甚麼。
 
-← [返回 AI Value Creator](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Value Creator](../README.md) · [按問題瀏覽](../../../README.md)

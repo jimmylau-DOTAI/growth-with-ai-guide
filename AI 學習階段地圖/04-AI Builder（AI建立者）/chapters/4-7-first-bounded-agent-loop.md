@@ -165,4 +165,4 @@ bounded action 的做法是讓 Agent 只做一種明確轉換，並把 output �
 
 暫時不要接 email、CRM、付款、客戶資料、公開發佈、正本覆寫或 production deployment；不要在第一輪同時換 prompt、工具、資料與 acceptance；亦不要將一次成功叫作 autonomous system。想先把工作範圍寫成更清楚 contract，可讀 [先寫一張 workbench contract](./4-19-workbench-contract.md)；要把例外寫成共同語言，可讀 [AI 一遇資料不足就繼續猜？Skill 要先寫好 exception ladder](./4-34-skill-exception-ladder.md)。
 
-← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../README.md)

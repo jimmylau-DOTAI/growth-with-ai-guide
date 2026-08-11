@@ -172,4 +172,4 @@ Receipt：本輪如何留下 input、check、決定和下一步？
 
 暫時不要把每個一次性 prompt 都存成 Skill；不要為了 AI 能多讀而把 private vault、客戶、CRM、合約、付款或 credentials 接進去；亦不要將 draft 當成已發布／已交付。若你想先用 quality gate 定義收貨線，可讀 [AI 做到一次唔等於可以交付](./4-2-quality-gates.md)；要把成功 demo 補成完整工作合約，可讀 [Skill 其實是一份工作合約](./4-23-skill-is-a-work-contract.md)。
 
-← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../README.md)

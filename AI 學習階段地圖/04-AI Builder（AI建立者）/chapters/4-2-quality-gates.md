@@ -155,4 +155,4 @@ Gate 的價值不只在判斷 pass／fail，而是在失敗時把工作帶到正
 
 暫時不要把所有創作結果寫成硬規則；不要因為有 gate 就跳過 human review；更不要把一次通過當成 production-ready。若你需要先判斷哪段 SOP 值得做成 Skill，可讀 [唔係每條 SOP 都應該變成 AI Skill](./4-37-human-runbook-or-ai-skill.md)；要將已知錯做成更可重跑檢查，可讀 [最小 regression pack](./4-10-minimum-regression-pack.md)。
 
-← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../README.md)

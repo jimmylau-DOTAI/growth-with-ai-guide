@@ -148,4 +148,4 @@ AI portfolio · personal brand · identity-proof map · GitHub profile · work p
 
 > 你不是靠工具名變得可被理解；是靠定位、作品、判斷、方法和邊界能互相對得上。
 
-← [返回 AI Value Creator](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Value Creator](../README.md) · [按問題瀏覽](../../../README.md)

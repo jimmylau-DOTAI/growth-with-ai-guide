@@ -146,4 +146,4 @@ rollback 也要被記錄在新的 control card。它不是技術細節，而是 
 
 > 當治理跟不上擴張，停一停比跑快更有價值。
 
-← [AI Value Creator 入口](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [AI Value Creator 入口](../README.md) · [按問題瀏覽](../../../README.md)

@@ -145,4 +145,4 @@ AI User 可能仍在學怎樣把 context 給足、把 output 變成自己的工�
 
 > 一個工具被開通，只代表 access；一個做法被人重複採用，才代表它開始創造價值。
 
-← [返回 AI Value Creator](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Value Creator](../README.md) · [按問題瀏覽](../../../README.md)

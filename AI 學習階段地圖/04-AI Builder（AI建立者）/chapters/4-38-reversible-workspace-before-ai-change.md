@@ -150,4 +150,4 @@ Recovery 也讓你避免把一次失敗錯誤歸咎於「AI 不行」。如果 r
 
 暫時不要把真客戶資料、production data、credentials 或內部 vault 複製進測試 workspace；不要一次交整個 project；亦不要因為有副本就跳過 review。若你需要把 workspace 的目的、可讀材料和驗收寫成工作合約，可讀 [先寫一張 workbench contract](./4-19-workbench-contract.md)；改動開始前仍有未確認問題時，回到 [AI 一遇資料不足就繼續猜？Skill 要先寫好 exception ladder](./4-34-skill-exception-ladder.md)。
 
-← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../README.md)

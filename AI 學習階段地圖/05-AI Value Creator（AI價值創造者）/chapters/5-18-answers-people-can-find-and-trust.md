@@ -127,4 +127,4 @@ AI 搜尋 · GEO · SEO · AI visibility · content strategy · trustworthy answ
 
 > 可見度的起點不是流量，而是當一個買家問對問題時，你有沒有一個具體、可核對、值得信任的回答。
 
-← [返回 AI Value Creator](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Value Creator](../README.md) · [按問題瀏覽](../../../README.md)

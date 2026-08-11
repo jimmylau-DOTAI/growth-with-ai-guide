@@ -153,4 +153,4 @@ Harness 有建置和維護成本。一件只做一次、錯了即時看得到、
 
 暫時不要把所有 prompt 都改成 code；不要把判斷、策略、品味或人際責任硬寫成假規則；也不要因為有 harness 就授予外部 action。想先設計一條可停、可 review 的 Agent loop，可讀 [先跑一條可停的 Agent loop](./4-25-first-agent-loop.md)；若你的工作仍混合了人手判斷與可重跑部分，讀 [唔係每條 SOP 都應該變成 AI Skill](./4-37-human-runbook-or-ai-skill.md)。
 
-← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../README.md)

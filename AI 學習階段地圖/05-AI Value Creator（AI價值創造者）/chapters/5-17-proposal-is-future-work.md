@@ -146,4 +146,4 @@ evidence 也不應只在最後補一個「預計 ROI」。早期最誠實的做�
 
 > AI proposal 的核心不是承諾一個很厲害的系統，而是共同定義一條值得先驗證的工作改變。
 
-← [返回 AI Value Creator](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Value Creator](../README.md) · [按問題瀏覽](../../../README.md)

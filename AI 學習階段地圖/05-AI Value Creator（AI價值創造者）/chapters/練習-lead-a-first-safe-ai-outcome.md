@@ -164,4 +164,4 @@ reviewer 發現兩題資料不足，要求保留 unknown；其餘題目格式可
 
 > 安全完成一次可 review 的真工作，比驚險地自動十次更能令 AI 變成習慣。
 
-← [返回 AI Value Creator](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Value Creator](../README.md) · [按問題瀏覽](../../../README.md)

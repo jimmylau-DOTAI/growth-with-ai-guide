@@ -170,4 +170,4 @@ Patch 前可寫這張小卡：
 
 暫時不要把 screenshot、綠色 test 或「已完成」訊息當成所有事情的證明；不要為了 debug 擴大到整個 vault、CRM 或敏感資料；也不要把本機驗證說成已部署、已發佈或已交付。若你想把同一類檢查變成每次都跑的回歸保護，可讀 [最小 regression pack](./4-10-minimum-regression-pack.md)；需要寫清改動前提時，讀 [Build 前先寫 assumption ledger](./4-35-assumption-ledger-before-build.md)。
 
-← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../README.md)

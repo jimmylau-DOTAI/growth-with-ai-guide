@@ -155,4 +155,4 @@ Needs approval 應在會改變責任、外部狀態、敏感資料範圍或核�
 
 暫時不用把所有 tool call、私人對話、客戶資料或秘密材料塞進 status log；不用為 status 先造 dashboard；也不要把 completed 當成已發佈、已交付或已證明價值。若你還未定義何時必須停下來等人，讀 [AI 一遇資料不足就繼續猜？Skill 要先寫好 exception ladder](./4-34-skill-exception-ladder.md)；若需要讓 AI 交出可 review 的工作狀態，讀 [先把工作變成可讀 state](./4-15-readable-state.md)；第一次接真 workflow 前，再讀 [第一個 AI live run 唔係直接按掣](./4-36-dry-run-before-live-run.md)。
 
-← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../README.md)

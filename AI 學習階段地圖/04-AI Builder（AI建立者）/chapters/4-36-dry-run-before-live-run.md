@@ -150,4 +150,4 @@ Recovery receipt 不需要記錄每一個技術細節。它只要讓人可追查
 
 暫時不要在第一次 live run 接 CRM、付款、客戶資料、外發、正本覆寫或不可逆部署；一次 human approval 亦不代表 workflow 已 production-ready。想把重複已知錯收進每次都會跑的檢查，可讀 [最小 regression pack](./4-10-minimum-regression-pack.md)；想知道 output 是否真能收貨，可讀 [設計獨立 review](./4-18-independent-review.md)。
 
-← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../README.md)

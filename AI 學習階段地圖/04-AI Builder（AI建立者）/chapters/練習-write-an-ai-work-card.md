@@ -165,4 +165,4 @@ content owner review，標準是每項可回原資料、unknown 不補事實、�
 
 > AI work card 的作用不是令你看起來有 AI team；是令你知道一件 AI 工作到底值不值得繼續。
 
-← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../README.md)

@@ -145,4 +145,4 @@ card 可以記：已觀察到從材料齊到可 review draft 的時間可被記�
 
 > 真 proof 不是講 AI 有幾勁；是坦白講清楚它幫邊一段工作、交咗乜、邊個 check，同埋仲有乜未證明。
 
-← [返回 AI Value Creator](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Value Creator](../README.md) · [按問題瀏覽](../../../README.md)

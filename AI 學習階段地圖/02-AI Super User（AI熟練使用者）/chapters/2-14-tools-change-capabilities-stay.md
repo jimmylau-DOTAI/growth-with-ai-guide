@@ -173,4 +173,4 @@ AI 最容易帶來的錯覺，是 output 一出現就像完成。其實一份工
 - 想建立個人 AI 工作方法：看看 [DotAI Academy 課程](https://dotai.hk/academy)。
 - 想和團隊一起練習 workflow、review 與安全邊界：了解 [DotAI 企業 AI 培訓](https://dotai.hk/servicetraining) 和 [已公開的企業案例](https://dotai.hk/blog/client-cases)。
 
-想先處理 context 和 feedback，可讀 [你唔係 Prompt 寫得唔夠長：AI 要見到你做事嘅 Context](./2-13-start-here-context-and-feedback.md)；想看完整五個 Stage 的攻略書架，可返回 [文章總地圖](../../../學習地圖.md)。
+想先處理 context 和 feedback，可讀 [你唔係 Prompt 寫得唔夠長：AI 要見到你做事嘅 Context](./2-13-start-here-context-and-feedback.md)；想看完整五個 Stage 的攻略書架，可返回 [文章總地圖](../../../README.md)。

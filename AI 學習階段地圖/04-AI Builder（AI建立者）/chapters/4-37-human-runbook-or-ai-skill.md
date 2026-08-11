@@ -126,4 +126,4 @@ output 的風險不只在於它會否有錯，也在於錯了會改變甚麼。A
 
 暫時不要把所有 SOP 都轉成 AI Skill；不要因為 AI 能起草就開放全部資料；更不要把 draft 當成替代人的專業意見、責任或批准。若你已判斷一段工作夠穩定，可讀 [Skill 其實是一份工作合約](./4-23-skill-is-a-work-contract.md)；若仍不清楚例外如何交回人，讀 [AI 一遇資料不足就繼續猜？Skill 要先寫好 exception ladder](./4-34-skill-exception-ladder.md)；若真正卡在需求未講清楚，讀 [Build 前先寫 assumption ledger](./4-35-assumption-ledger-before-build.md)。
 
-← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../README.md)

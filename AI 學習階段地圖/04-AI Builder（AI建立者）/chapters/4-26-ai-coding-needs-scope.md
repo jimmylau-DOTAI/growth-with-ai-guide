@@ -97,4 +97,4 @@ MVP 的意思不是隨便少做一些功能。它是保留最小但完整的價�
 
 留低一個最小 scope、不可改部分、驗收 test 和回退點。暫時不要讓 Codex 一次改大半個 project；先讀 [minimum regression pack](./4-10-minimum-regression-pack.md)。
 
-← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../README.md)

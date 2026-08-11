@@ -166,4 +166,4 @@ AI 只整理與起草；每項必有 source、unknown、owner 三格，缺一格
 
 > 你唔係 AI 用得少；你係由逐句餵 AI，走去設計一條有 check、有 state、可交接的工作循環。
 
-← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../README.md)

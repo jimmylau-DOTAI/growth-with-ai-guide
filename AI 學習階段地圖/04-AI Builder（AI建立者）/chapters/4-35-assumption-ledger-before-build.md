@@ -129,4 +129,4 @@ AI 可以按這個順序交 plan：
 
 暫時不要把真客戶 brief、CRM、合約、credentials 或 production deployment 拿來練習；也不要因為 AI 列了 ledger 就讓它自行決定未確認 business rule。若要進一步把 scope 砍成可 build 的第一版，可讀 [AI coding 愈快，人愈要識砍 scope 同驗收](./4-26-ai-coding-needs-scope.md)；若 plan 已確認、準備在 workspace 做小改動，可讀 [先寫一張 workbench contract](./4-19-workbench-contract.md)；遇到例外時則回到 [Skill 要先寫好 exception ladder](./4-34-skill-exception-ladder.md)。
 
-← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../README.md)

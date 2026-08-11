@@ -144,4 +144,4 @@ handoff contract 同時也是 protection：research role 不應把未確認推�
 
 暫時不要把多個 chat 視為已完成 multi-agent；不要把 shared memory 理解成所有 agent 都可讀所有資料；也不要為了有並行而把有依賴的工作硬拆開。想按 context 和驗收判斷該用一條 loop 還是 specialist，可讀 [Loop 和 specialist 的分工](./4-13-loop-or-specialist.md)；想先跑一條穩定單 agent workflow，可讀 [AI Loop 點樣先唔係排咗期嘅 prompt](./4-3-loop-engineering.md)。
 
-← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../README.md)

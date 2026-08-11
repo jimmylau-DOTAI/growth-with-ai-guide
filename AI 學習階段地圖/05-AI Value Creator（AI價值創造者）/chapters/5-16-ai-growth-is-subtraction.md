@@ -125,4 +125,4 @@ AI growth · AI productivity · workflow optimisation · automation · rework ·
 
 > 價值不是 AI 生成了多少，而是它有沒有令人的時間回到判斷、關係、例外和真正值得創造的部分。
 
-← [返回 AI Value Creator](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Value Creator](../README.md) · [按問題瀏覽](../../../README.md)

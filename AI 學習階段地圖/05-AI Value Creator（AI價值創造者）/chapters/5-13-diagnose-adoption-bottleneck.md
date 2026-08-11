@@ -145,4 +145,4 @@ AI 實戰 · AI Value Creator · AI adoption · bottleneck diagnosis · workflow
 
 > 帶人用 AI 的第一步，不是給多一個 prompt；是幫他看見哪一段真工作最早斷了，然後只補一個可驗收的下一步。
 
-← [返回 AI Value Creator](../README.md) · [查看五段地圖](../../../學習地圖.md)
+← [返回 AI Value Creator](../README.md) · [查看五段地圖](../../../README.md)

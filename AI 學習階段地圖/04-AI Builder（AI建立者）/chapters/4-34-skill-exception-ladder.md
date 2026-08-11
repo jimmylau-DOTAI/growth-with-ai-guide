@@ -131,4 +131,4 @@ AI 被要求完成一項工作時，通常很擅長把空白補成看起來順�
 
 暫時不要因為寫好 exception ladder 就接 CRM、付款、客戶資料、正本覆寫或自動外發工具；它只證明你較能處理已知例外，不代表 workflow 已安全或 autonomous。若你未寫過完整 Skill，可先讀 [Skill 其實是一份工作合約](./4-23-skill-is-a-work-contract.md)；想把重複錯變成可重跑檢查，可讀 [最小 regression pack](./4-10-minimum-regression-pack.md)，需要另一個人或 AI 幫你核對時則讀 [設計獨立 review](./4-18-independent-review.md)。
 
-← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../README.md)

@@ -144,4 +144,4 @@ stage 診斷不應被用作能力認證、招聘、薪酬、績效或職級工�
 
 > 最準的 AI stage 診斷，不是你講自己識幾多工具，而是最近一件工作卡在哪一個可見的交接位。
 
-← [返回 AI Value Creator](../README.md) · [查看五段地圖](../../../學習地圖.md)
+← [返回 AI Value Creator](../README.md) · [查看五段地圖](../../../README.md)

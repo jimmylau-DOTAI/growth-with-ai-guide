@@ -147,4 +147,4 @@ run receipt 可以很簡單：本輪用了哪個版本的 control card、交了�
 
 > 好的 measure 令你同時看見價值和風險，而不是製造另一個無人看的 dashboard。
 
-← [AI Value Creator 入口](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [AI Value Creator 入口](../README.md) · [按問題瀏覽](../../../README.md)

@@ -145,4 +145,4 @@ AI 可以很快產生很多 output，但這不會自動變成更多價值。若�
 
 若你想把一件具體工作寫成可管理 unit，可讀 [先寫一張可驗收 AI work card](./4-20-ai-work-card.md)；若你要先判斷應保留人手 runbook 還是做成 Skill，可讀 [唔係每條 SOP 都應該變成 AI Skill](./4-37-human-runbook-or-ai-skill.md)。
 
-← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../README.md)

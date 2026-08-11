@@ -145,4 +145,4 @@ checks 記錄每個具體主張可回到 URL 或標 unknown，沒有未批准 CT
 
 > 可靠不是 AI 說「完成」；是有人能看見這一輪做過甚麼、尚欠甚麼，並作出下一個決定。
 
-← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../README.md)

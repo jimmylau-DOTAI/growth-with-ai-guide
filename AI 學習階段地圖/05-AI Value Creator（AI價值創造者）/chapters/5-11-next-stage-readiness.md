@@ -146,4 +146,4 @@ owner gate 則確保這條 workflow 不會變成無主系統。有人要負責�
 
 > AI 成長唔係爬得愈快愈叻；係每加一層複雜度之前，都有足夠 evidence 證明你接得住。
 
-← [返回 AI Value Creator](../README.md) · [查看五段地圖](../../../學習地圖.md)
+← [返回 AI Value Creator](../README.md) · [查看五段地圖](../../../README.md)

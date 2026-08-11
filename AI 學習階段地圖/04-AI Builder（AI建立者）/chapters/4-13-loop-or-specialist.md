@@ -156,4 +156,4 @@ router 的價值是令工作去到正確的檢查點，而不是取代所有判�
 
 > AI 分工唔係職位分工，而係 context、authority、artifact、verification 同 escalation 分工。
 
-← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../README.md)

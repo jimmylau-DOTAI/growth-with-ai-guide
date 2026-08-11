@@ -119,4 +119,4 @@ Skill 最容易被誤解成「將人完全移走」。其實剛好相反：它�
 | 2. Review | 按 quality gate 判 pass／revise／stop | reviewer decision |
 | 3. Receipt | 記已做、未做、例外與下一步 | 是否值得再跑的 evidence |
 
-← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../README.md)

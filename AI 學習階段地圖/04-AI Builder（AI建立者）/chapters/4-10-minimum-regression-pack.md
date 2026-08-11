@@ -164,4 +164,4 @@ pack 不需要在任何微小改動後都變成阻塞部署的大儀式，但它
 
 暫時不要把品味、策略、品牌承諾或高責任決定偽裝成硬規則；不要把 test fixture 變成客戶／CRM／credentials 備份；也不要因為 pack 通過就說 workflow 已 production-ready 或可以自動外發。若你未有一條可比較的修正路徑，先讀 [AI 話做完、畫面又似樣，為何仍未算完成？](./4-9-evidence-loop.md)；要為例外寫清止步與交接，讀 [AI 一遇資料不足就繼續猜？Skill 要先寫好 exception ladder](./4-34-skill-exception-ladder.md)。
 
-← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../README.md)

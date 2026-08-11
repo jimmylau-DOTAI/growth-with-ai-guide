@@ -145,4 +145,4 @@ Source intake 只讀公開 URL，交來源、作者、主張和未知；draft wo
 
 > AI 公司圖幫你理解角色；workflow boundary 才令每個角色真正交代得到。
 
-← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../README.md)

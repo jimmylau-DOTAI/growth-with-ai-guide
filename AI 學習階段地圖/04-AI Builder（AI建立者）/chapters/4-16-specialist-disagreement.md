@@ -141,4 +141,4 @@ reviewer 可以說「這格不符合已定標準」，但不應自行將 rule �
 
 > 有價值的 AI 團隊，不是一齊鼓掌；而是把不同 evidence 和風險放上枱，令真正的 owner 判斷得更清楚。
 
-← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Builder](../README.md) · [按問題瀏覽](../../../README.md)

@@ -142,4 +142,4 @@ AI Builder 則在流程穩定後，為一手工作加 input boundary、quality g
 
 > AI 成長唔係你識幾多工具，而係你下一件真工作可以少啲猜、多啲交接、多啲驗收。
 
-← [返回 AI Value Creator](../README.md) · [查看五段地圖](../../../學習地圖.md)
+← [返回 AI Value Creator](../README.md) · [查看五段地圖](../../../README.md)

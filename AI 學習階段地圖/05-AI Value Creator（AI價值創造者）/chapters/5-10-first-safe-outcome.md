@@ -146,4 +146,4 @@ reviewer 檢查每個 claim 是否能回到文章、unknown 有沒有標示、�
 
 > AI 教育唔係塞工具清單；係帶人安全地交出第一件真工作，然後由 review 決定下一步。
 
-← [返回 AI Value Creator](../README.md) · [按問題瀏覽](../../../學習地圖.md)
+← [返回 AI Value Creator](../README.md) · [按問題瀏覽](../../../README.md)
