@@ -8,7 +8,7 @@ AI 很容易給你一段看起來順的答案，但未必等於可交付的成�
 
 ## 先由這篇開始
 
-[ChatGPT 新手教學：識得問 AI，點樣先可以將一件真工作交畀佢？](chapters/1-6-start-here-first-ai-work.md)
+[ChatGPT 新手教學：識得問 AI，點樣先可以將一件真工作交畀佢？](chapters/1-6-對話式人工智能新手教學.md)
 
 不用先讀完這一關所有文章。先用一篇最貼近現況的攻略做一次，再回來補你真正需要的部份。
 
@@ -18,12 +18,12 @@ AI 很容易給你一段看起來順的答案，但未必等於可交付的成�
 
 ## 本關全部攻略與練習
 
-- 📘 攻略：[AI 術語新手教學：Prompt、Context、Agent、Codex 是甚麼？先用工作語言理解](chapters/1-1-vocabulary-before-workflow.md)
-- 📘 攻略：[AI 工具點揀？新手先揀一個可以交到真工作的 AI 工作台](chapters/1-2-pick-a-workbench.md)
-- 📘 攻略：[第一件 AI 工作點揀？唔好先做最急嗰件，先揀可收貨的練習](chapters/1-3-pick-your-first-safe-ai-task.md)
-- 📘 攻略：[甚麼工作暫時不要交畀 AI？新手先縮到自己驗收得到的一段](chapters/1-4-when-not-to-delegate-your-first-task.md)
-- 📘 攻略：[哪些資料不應隨便上傳 AI？先判斷今次工作真正需要的 context](chapters/1-5-materials-not-to-upload-to-ai.md)
-- 📘 攻略：[ChatGPT 新手教學：識得問 AI，點樣先可以將一件真工作交畀佢？](chapters/1-6-start-here-first-ai-work.md)
+- 📘 攻略：[AI 術語新手教學：Prompt、Context、Agent、Codex 是甚麼？先用工作語言理解](chapters/1-1-人工智能術語新手教學.md)
+- 📘 攻略：[AI 工具點揀？新手先揀一個可以交到真工作的 AI 工作台](chapters/1-2-人工智能工具點揀.md)
+- 📘 攻略：[第一件 AI 工作點揀？唔好先做最急嗰件，先揀可收貨的練習](chapters/1-3-第一件人工智能工作點揀.md)
+- 📘 攻略：[甚麼工作暫時不要交畀 AI？新手先縮到自己驗收得到的一段](chapters/1-4-甚麼工作暫時不要交畀人工智能.md)
+- 📘 攻略：[哪些資料不應隨便上傳 AI？先判斷今次工作真正需要的 context](chapters/1-5-哪些資料不應隨便上傳人工智能.md)
+- 📘 攻略：[ChatGPT 新手教學：識得問 AI，點樣先可以將一件真工作交畀佢？](chapters/1-6-對話式人工智能新手教學.md)
 
 ## 何時值得進入下一關？
 

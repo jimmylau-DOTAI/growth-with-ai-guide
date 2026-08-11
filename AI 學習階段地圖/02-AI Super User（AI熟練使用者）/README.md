@@ -8,7 +8,7 @@
 
 ## 先由這篇開始
 
-[你唔係 Prompt 寫得唔夠長：AI 要見到你做事嘅 Context](chapters/2-13-start-here-context-and-feedback.md)
+[你唔係 Prompt 寫得唔夠長：AI 要見到你做事嘅 Context](chapters/2-13-你唔係指令寫得唔夠長.md)
 
 不用先讀完這一關所有文章。先用一篇最貼近現況的攻略做一次，再回來補你真正需要的部份。
 
@@ -18,25 +18,25 @@
 
 ## 本關全部攻略與練習
 
-- 📘 攻略：[AI 答案點樣變成可驗收工作？先將 prompt 變成一張 task brief](chapters/2-1-from-answers-to-real-work.md)
-- 📘 攻略：[唔好每星期換 AI 工具：每種真工作先揀一個 Tier‑1 default](chapters/2-10-one-tier-one-tool.md)
-- 📘 攻略：[AI 第二稿點先真係好過第一稿？Review 不是最後一眼，是下一次的學習 loop](chapters/2-11-review-loop-next-draft.md)
-- 📘 攻略：[資料未齊唔等於要停：先決定應起稿、問人、研究，定係停低](chapters/2-12-is-context-ready-to-draft.md)
-- 📘 攻略：[你唔係 Prompt 寫得唔夠長：AI 要見到你做事嘅 Context](chapters/2-13-start-here-context-and-feedback.md)
-- 📘 攻略：[學 AI 唔好只追新工具：5 個能力令你每次真工作都會累積](chapters/2-14-tools-change-capabilities-stay.md)
-- 📘 攻略：[AI 學習點先唔係只收藏 Prompt？用 Context 同 Feedback 令每次工作累積](chapters/2-2-context-compounding.md)
-- 📘 攻略：[AI 入門點解唔係收集 Prompt？先砌一個安全、懂你工作的 AI 環境](chapters/2-3-configuration-ladder.md)
-- 📘 攻略：[用 Codex／Claude Code 做事，點樣唔好一路燒 Context？先養成五個工作反射](chapters/2-4-reflex-ladder.md)
-- 📘 攻略：[AI 生圖為何總是不像你的產品？先做產品理解，再寫 prompt](chapters/2-5-product-understanding.md)
-- 📘 攻略：[AI 回答得太快反而危險？先反問會改變結果的三條問題](chapters/2-6-counter-question.md)
-- 📘 攻略：[Obsidian 筆記愈多愈亂？有用嘅思考摩擦先會變成 AI context](chapters/2-7-thinking-friction.md)
-- 📘 攻略：[AI 寫得好流暢，點解仍然唔敢用？先分清材料、判斷、未知和假設](chapters/2-8-evidence-before-generation.md)
-- 📘 攻略：[改咗十次，AI 下次仍然唔明？你未把 feedback 變成判斷](chapters/2-9-feedback-into-judgment.md)
-- ✍️ 練習：[AI 點解總是順住你錯的前提答？先叫它反問，唔好急住生成](chapters/練習-ai-counter-question-before-answering.md)
-- ✍️ 練習：[AI 生出來總是不像你的產品？先叫它講清楚自己理解了甚麼，再生成](chapters/練習-ai-understand-product-before-generating.md)
-- ✍️ 練習：[AI 每次都要重講背景？用五格寫一份可 review 的 AI task pack](chapters/練習-build-an-ai-task-pack.md)
-- ✍️ 練習：[睇完一篇 AI 文章點先算學到？唔係摘要，而係它改變了你哪個工作決定](chapters/練習-turn-a-source-into-your-own-decision.md)
-- ✍️ 練習：[AI 每次都犯同一種錯？唔好只改稿，將 feedback 變成下一次可用的 rule](chapters/練習-turn-feedback-into-a-rule.md)
+- 📘 攻略：[AI 答案點樣變成可驗收工作？先將 prompt 變成一張 task brief](chapters/2-1-人工智能答案點樣變成可驗收工作.md)
+- 📘 攻略：[唔好每星期換 AI 工具：每種真工作先揀一個 Tier‑1 default](chapters/2-10-唔好每星期換人工智能工具.md)
+- 📘 攻略：[AI 第二稿點先真係好過第一稿？Review 不是最後一眼，是下一次的學習 loop](chapters/2-11-人工智能第二稿點先真係好過第一稿.md)
+- 📘 攻略：[資料未齊唔等於要停：先決定應起稿、問人、研究，定係停低](chapters/2-12-資料未齊唔等於要停.md)
+- 📘 攻略：[你唔係 Prompt 寫得唔夠長：AI 要見到你做事嘅 Context](chapters/2-13-你唔係指令寫得唔夠長.md)
+- 📘 攻略：[學 AI 唔好只追新工具：5 個能力令你每次真工作都會累積](chapters/2-14-學人工智能唔好只追新工具.md)
+- 📘 攻略：[AI 學習點先唔係只收藏 Prompt？用 Context 同 Feedback 令每次工作累積](chapters/2-2-人工智能學習點先唔係只收藏指令.md)
+- 📘 攻略：[AI 入門點解唔係收集 Prompt？先砌一個安全、懂你工作的 AI 環境](chapters/2-3-人工智能入門點解唔係收集指令.md)
+- 📘 攻略：[用 Codex／Claude Code 做事，點樣唔好一路燒 Context？先養成五個工作反射](chapters/2-4-用程式代理做事點樣唔好一路燒背景資料.md)
+- 📘 攻略：[AI 生圖為何總是不像你的產品？先做產品理解，再寫 prompt](chapters/2-5-人工智能生圖為何總是不像你的產品.md)
+- 📘 攻略：[AI 回答得太快反而危險？先反問會改變結果的三條問題](chapters/2-6-人工智能回答得太快反而危險.md)
+- 📘 攻略：[Obsidian 筆記愈多愈亂？有用嘅思考摩擦先會變成 AI context](chapters/2-7-筆記庫筆記愈多愈亂.md)
+- 📘 攻略：[AI 寫得好流暢，點解仍然唔敢用？先分清材料、判斷、未知和假設](chapters/2-8-人工智能寫得好流暢點解仍然唔敢用.md)
+- 📘 攻略：[改咗十次，AI 下次仍然唔明？你未把 feedback 變成判斷](chapters/2-9-改咗十次人工智能下次仍然唔明.md)
+- ✍️ 練習：[AI 點解總是順住你錯的前提答？先叫它反問，唔好急住生成](chapters/練習-人工智能點解總是順住你錯的前提答.md)
+- ✍️ 練習：[AI 生出來總是不像你的產品？先叫它講清楚自己理解了甚麼，再生成](chapters/練習-人工智能生出來總是不像你的產品.md)
+- ✍️ 練習：[AI 每次都要重講背景？用五格寫一份可 review 的 AI task pack](chapters/練習-人工智能每次都要重講背景.md)
+- ✍️ 練習：[睇完一篇 AI 文章點先算學到？唔係摘要，而係它改變了你哪個工作決定](chapters/練習-睇完一篇人工智能文章點先算學到.md)
+- ✍️ 練習：[AI 每次都犯同一種錯？唔好只改稿，將 feedback 變成下一次可用的 rule](chapters/練習-人工智能每次都犯同一種錯.md)
 
 ## 何時值得進入下一關？
 
